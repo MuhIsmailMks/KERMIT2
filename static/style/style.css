@@ -33,7 +33,7 @@ blockquote,q {
 }
 
 :root {
-    --primary: #fff;
+    /* --primary: #fff; */
     --primary-rgb: 255,255,255;
     --grey: #c9c9c9;
     --smoke: #000;
@@ -318,7 +318,7 @@ button:hover {
 }
 
 .btn.primary:hover {
-    background-color: var(--text-blue)
+    /* background-color: var(--text-blue) */
 }
 
 .btn.secondary {
@@ -1235,15 +1235,33 @@ body::before{
 }
 
 .hero_title{
-    font-size: 60px !important;
+    font-size: 100px;
 }
 
 .link_btn{
     margin-top: 2rem;
 }
 
+.logo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
 .logo_text{
-    font-size: 40px;
+    font-size: 50px;
+    color: var(--primary);
+    text-shadow: -4px 6px 0 black;
+    -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+}
+
+.logo_container img{
+    width: 60px;
+    height: auto;
+    object-fit: contain;
 }
 
 .get_btn{
@@ -1270,7 +1288,7 @@ body::before{
     }
 
     .logo_text{
-        font-size: 4vw;
+        font-size: 14vw;
     }
 
     .hero_title{
