@@ -701,17 +701,23 @@ body::before{
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1
+    z-index: -1;
+
+    background-image: url('../media/photo-9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--h-dgrey);
 }
 
 .photo:before {
-    background-color: var(--text-blue);
+    /* background-color: var(--negative); */
     transform: translate(5%,5%)
 }
 
-.photo:after {
+/* .photo:after {
     background-color: inherit
-}
+} */
 
 .photo img {
     border: 1px solid var(--negative);
