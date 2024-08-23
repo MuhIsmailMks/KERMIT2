@@ -15,22 +15,22 @@ menu_btn.addEventListener('click', () => {
         let textSpan = copybtn.querySelector('span');
         let intervalId;
             let addressText = document.querySelector(".value").getAttribute('value');
-            textSpan.innerHTML = '0x4334ef6f3600280A0935964799025BbaE86b4f33';
+            textSpan.innerHTML = 'COPY';
 
             if (intervalId) {  
                 clearInterval(intervalId);
             }
 
             intervalId = setInterval(() => {
-                textSpan.innerHTML = 'COPY'; 
+                textSpan.innerHTML = '0x4334ef6f3600280A0935964799025BbaE86b4f33'; 
+                // textSpan.innerHTML = ''; 
                 clearInterval(intervalId);  
             }, 1000);
 
             navigator.clipboard.writeText(addressText);
         }); 
         
-        copy_address.addEventListener("click", function() {  
-        let textSpan = copy_address.querySelector('span');
+        copy_address.addEventListener("click", function() {   
         let message = copy_address.querySelector('.message');
         let intervalId;
             let addressText = `0x4334ef6f3600280A0935964799025BbaE86b4f33`
