@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body {
-    line-height: 1;
+    line-height: 1; 
 }
 
 * {
@@ -1270,12 +1270,33 @@ body::before{
 
 .social_container{
     width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .footer_logo img{
     width: 190px;
     height: auto;
     object-fit: contain;
+}
+
+@media (max-width: 504px) {
+    
+    #contract .btn-group .btn{
+        width: 70%; 
+        padding: 1rem !important;
+    }
+
+    #contract .btn-group .btn span{
+        width: 50px;
+        height: 50px;
+    }
+
+    #contract .clipboard{
+        height: 70px;
+    }
 }
 
 @media (max-width: 804px) {
@@ -1304,6 +1325,7 @@ body::before{
         width: 90%;
         margin: 0 auto 2rem;
     }
+
     
     .box-list{
         gap: 1rem;
@@ -1395,6 +1417,7 @@ body::before{
 .marquee-left .marquee-el {
     animation-direction: reverse
 }
+ 
 
 @keyframes scroll {
     0% {
@@ -1453,4 +1476,15 @@ body::before{
   60%{
     transform: translatey(1vw);
   } 
+  }
+
+
+  /* other */
+  .black_color{
+    color: var(--negative);
+  }
+
+
+  #promo .btn:not(.spaceless){
+    margin-top: 0 !important;
   }
