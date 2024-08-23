@@ -1328,22 +1328,7 @@ body::before{
     object-fit: contain;
 }
 
-@media (max-width: 504px) {
-    
-    #contract .btn-group .btn{
-        width: 70%; 
-        padding: 1rem !important;
-    }
-
-    #contract .btn-group .btn span{
-        width: 50px;
-        height: 50px;
-    }
-
-    #contract .clipboard{
-        height: 70px;
-    }
-}
+/* new section */
 
 .menu_btn{
     position: relative;
@@ -1405,16 +1390,33 @@ body::before{
 .copy_address p,
 .copy_address p span{
     position: relative;
-    max-width: 300px;
+    max-width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 
+/* media queries */
+@media (max-width: 504px) {
+    
+    #contract .btn-group .btn{
+        width: 70%; 
+        padding: 1rem !important;
+    }
+
+    #contract .btn-group .btn span{
+        width: 50px;
+        height: 50px;
+    }
+
+    #contract .clipboard{
+        height: 70px;
+    }
+}
 
 @media (max-width: 804px) {
     .navigation{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     .logo_web img{
@@ -1549,7 +1551,7 @@ body::before{
     .links ul li a{
         color: black;
         text-decoration: none;
-        font-size: 1.745rem;
+        font-size: 1.545rem;
         text-align: center;
     }
 
@@ -1595,7 +1597,6 @@ body::before{
     }
 
 }
-
 
 @media (min-width: 1024px) {
     .box-list {
