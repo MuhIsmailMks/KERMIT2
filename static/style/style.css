@@ -184,7 +184,7 @@ h2 {
 h3 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--shadow-primary);
-    color: var(--primary);
+    color: white;
     font-size: var(--h3);
     text-shadow: -1px 2px 0 var(--shadow-primary)
 }
@@ -309,7 +309,7 @@ button:hover {
 
 .btn.primary {
     background-color: var(--primary);
-    color: var(--accent)
+    color: white;
 }
 
 .btn.primary:hover {
@@ -335,7 +335,7 @@ button:hover {
 
 .btn.hollow {
     background-color: initial;
-    color: var(--primary)
+    color:white;
 }
 
 [data-theme=negative] .btn.hollow {
@@ -934,7 +934,7 @@ body {
     border: 2px solid var(--h-accent);
     border-radius: 100px;
     box-shadow: -5px 6px 0 0 var(--shadow-primary);
-    color: var(--primary);
+    color: white;
     font-family: var(--heading);
     font-size: var(--btn-large);
     justify-content: center;
