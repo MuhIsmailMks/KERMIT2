@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body {
-    line-height: 1
+    line-height: 1;
 }
 
 * {
@@ -50,9 +50,14 @@ blockquote,q {
     --h-red: #d33a3a;
     --pink: #e543d2;
     --h-pink: #d035be;
-    --primary: #A02334;
+    --primary: #ff1126;
+    --secondary:#E8C602;
+    --dgrey: #4f5656;
+    --h-dgrey: #3c4242;
+    --accent:#ffe551;
+    --h-accent: #e8c602;
     --h-blue: #2f6ee0;
-    --text-blue: #ccdaff;
+    --text-blue: #f1f1f1;
     --shadow-primary: #861115;
     --teal: #72ecc1;
     --h-teal: #35cb98;
@@ -67,8 +72,8 @@ blockquote,q {
     --global-p-width: 480px;
     --global-padding: 20px;
     --global-body-bg: var(--primary);
-    --gutter: 10px;
-    --heading: "Milky Nice",sans-serif;
+    --gutter: 10px; 
+    --heading: "Midorima", cursive;
     --line-height: 1;
     --globall-line-height: 1.4;
     --reduced-line-height: 1.2;
@@ -139,21 +144,21 @@ blockquote,q {
     }
 }
 
-@font-face {
+/* @font-face {
     font-display: swap;
     font-family: Valera;
     font-style: normal;
     font-weight: 400;
     src: url('../media/smidgeH.33cd54cdb0983c73fd13.woff2') format("woff2")
-}
+}*/
 
 @font-face {
     font-display: swap;
-    font-family: Milky Nice;
+    font-family: Midorima;
     font-style: normal;
     font-weight: 700;
-    src: url('../media/smidgeB.9ececdb6f5ec39044d61.woff2') format("woff2")
-}
+    src: url('../media/Midorima-PersonalUse-Regular.ttf');
+} 
 
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading);
@@ -167,13 +172,13 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
 }
 
 h1 {
-    font-size: var(--h1)
+    font-size: var(--h1);
 }
 
 h1,h2 {
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: var(--shadow-primary);
-    color: white;
+    color: var(--secondary);
     text-shadow: -2px 3px 0 var(--shadow-primary)
 }
 
@@ -184,7 +189,7 @@ h2 {
 h3 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--shadow-primary);
-    color: white;
+    color: var(--secondary);
     font-size: var(--h3);
     text-shadow: -1px 2px 0 var(--shadow-primary)
 }
@@ -334,8 +339,9 @@ button:hover {
 }
 
 .btn.hollow {
-    background-color: initial;
-    color:white;
+    background-color: var(--accent);
+    box-shadow: inset 0 0 0 5px var(--h-accent);
+    color:black;
 }
 
 [data-theme=negative] .btn.hollow {
@@ -412,7 +418,7 @@ button:hover {
     background-image: url('../media/dextools-y.fc7e910a97ed6efdefae.svg')
 }
 
-[data-ico=dexscreener]:before {
+[data-ico=dexscreener]:before { 
     background-image: url('../media/dexscreener.5ed2e8482ddc9beca1f5.svg')
 }
 
@@ -473,23 +479,41 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--global-body-bg);
     color: var(--text-blue);
-    display: block;
-    font-family: var(--body);
+    display: block; 
     font-size: var(--paragraph);
     line-height: var(--globall-line-height);
+    
+    font-family: "Comic Neue", cursive;
     overflow-x: hidden;
     text-shadow: 1px 1px 1px rgba(0,0,0,.004)
+}
+
+body::before{
+    content: ""; 
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50%;
+    background-color: var(--secondary);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 84%);
+    z-index: -1;
 }
 
 #root {
     margin-left: auto;
     margin-right: auto;
     max-width: var(--global-width);
-    padding: 0 var(--global-padding)
+    padding: 0 var(--global-padding); 
 }
 
 #root>:not(.exclude):not(.fw) {
     width: 100%
+}
+
+.z_99{
+    z-index: 99;
 }
 
 .grid-x {
@@ -579,11 +603,11 @@ body {
 }
 
 .circle {
-    align-items: center;
-    background-color: var(--text-blue);
+    align-items: center; 
     border: 2px solid var(--shadow-primary);
     border-radius: 50%;
-    box-shadow: -5px 6px 0 0 var(--shadow-primary);
+    box-shadow: inset 0 0 0 5px var(--h-dgrey);
+    background-color: var(--dgrey); 
     box-sizing: border-box;
     display: flex;
     height: 50px;
@@ -777,7 +801,7 @@ body {
 }
 
 .h-split .cnt-txt .speech {
-    font-family: var(--heading);
+    /* font-family: var(--heading); */
     font-size: var(--h4);
     position: relative
 }
@@ -930,10 +954,10 @@ body {
 
 #contract .clipboard {
     align-items: center;
-    background-color: var(--accent);
-    border: 2px solid var(--h-accent);
+    background-color: var(--dgrey);
+    border: 2px solid var(--h-dgrey);
     border-radius: 100px;
-    box-shadow: -5px 6px 0 0 var(--shadow-primary);
+    box-shadow: -5px 6px 0 0 var(--grey);
     color: white;
     font-family: var(--heading);
     font-size: var(--btn-large);
@@ -943,7 +967,7 @@ body {
 }
 
 #contract .clipboard:hover {
-    box-shadow: 0 0 0 0 var(--h-accent);
+    box-shadow: 0 0 0 0 var(--grey);
     transition: all .3s ease-in-out
 }
 
@@ -956,7 +980,8 @@ body {
 
 #contract .btn-group .btn span {
     align-items: center;
-    background-color: var(--accent);
+    box-shadow: inset 0 0 0 5px var(--h-dgrey);
+    background-color: var(--dgrey); 
     border-radius: 50%;
     display: flex;
     height: 32px;
@@ -965,7 +990,8 @@ body {
 }
 
 #contract .btn-group .btn.secondary span {
-    background-color: var(--accent)
+    box-shadow: inset 0 0 0 5px var(--h-dgrey);
+    background-color: var(--dgrey); 
 }
 
 #contract .btn-group {
