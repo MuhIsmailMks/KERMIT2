@@ -1416,6 +1416,11 @@ body::before{
     #contract .clipboard{
         height: 70px;
     }
+
+    .box-list .photo{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 804px) {
