@@ -1399,6 +1399,10 @@ body::before{
 /* media queries */
 @media (max-width: 504px) {
     
+    .btn.hollow::before, .btn.hollow::after { 
+        height: 5px; 
+    }
+
     #contract .btn-group .btn{
         width: 70%; 
         padding: 1rem !important;
