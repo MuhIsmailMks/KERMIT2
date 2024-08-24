@@ -157,7 +157,7 @@ blockquote,q {
     font-family: Midorima;
     font-style: normal;
     font-weight: 700;
-    src: url('../media/Midorima-PersonalUse-Regular.ttf');
+    src: url('../media/Monigue.woff');
 } 
 
 h1,h2,h3,h4,h5,h6 {
@@ -920,7 +920,7 @@ body::before{
 
 @media (min-width: 1024px) and (max-width:1441px) {
     .h-split .cnt-img img {
-        max-width:430px
+        max-width:380px;
     }
 }
 
@@ -1288,7 +1288,7 @@ body::before{
 }
 
 .hero_title{
-    font-size: 100px;
+    font-size: 150px;
 }
 
 .link_btn{
@@ -1304,7 +1304,8 @@ body::before{
 }
 
 .logo_text{
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 1;
     color: var(--primary);
     text-shadow: -4px 6px 0 black;
     -webkit-text-stroke-width: 1px;
@@ -1312,7 +1313,7 @@ body::before{
 }
 
 .logo_container img{
-    width: 60px;
+    width: 90px;
     height: auto;
     object-fit: contain;
 }
@@ -1401,6 +1402,35 @@ body::before{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.copy_address.desktop{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.navigation .copy_address.desktop p,
+.navigation .copy_address.desktop span{
+    font-size: 1.5rem;
+    color: black;
+ 
+}
+
+.copy_address.desktop img{
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+}
+ 
 
 
 /* media queries */
@@ -1579,7 +1609,7 @@ body::before{
 
     .hero_title{
         text-align: center;
-        font-size: 15vw;
+        font-size: 24vw;
     }
 
     .about_hero{
@@ -1610,6 +1640,10 @@ body::before{
 
     .social_container{
         width: 100%;
+    }
+
+    .copy_address.desktop{
+        display: none;
     }
 
     #contract .social_grup p{
@@ -1657,8 +1691,7 @@ body::before{
     border-top: 2px solid var(--shadow-primary);
     color: var(--text-blue);
     font-family: var(--heading);
-    padding-bottom: var(--gutter);
-    padding-top: var(--gutter);
+    padding: 0;
     text-shadow: -2px 3px 0 var(--shadow-primary);
     text-transform: uppercase
 }
@@ -1680,6 +1713,10 @@ body::before{
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
     z-index: 1
+}
+
+.marquee-el p{
+    font-size: 4rem;
 }
 
 .marquee-right .marquee-el {
@@ -1769,3 +1806,8 @@ body::before{
     object-fit: contain;
   }
 
+
+  .get_btn{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }

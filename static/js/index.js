@@ -8,7 +8,7 @@ menu_btn.addEventListener('click', () => {
 })
  
  // copy address
-    const copy_address = document.querySelector(".copy_address");
+    const copy_address = document.querySelectorAll(".copy_address");
     const copybtn = document.querySelector(".contractCopy");
     
      copybtn.addEventListener("click", function() { 
@@ -30,20 +30,22 @@ menu_btn.addEventListener('click', () => {
             navigator.clipboard.writeText(addressText);
         }); 
         
-        copy_address.addEventListener("click", function() {   
-        let message = copy_address.querySelector('.message');
-        let intervalId;
-            let addressText = `0x4334ef6f3600280A0935964799025BbaE86b4f33`
-            message.classList.add('active')
-            if (intervalId) {  
-                clearInterval(intervalId);
-            }
-
-            intervalId = setInterval(() => {
-                message.classList.remove('active')
-                clearInterval(intervalId);  
-            }, 1000);
-
-            navigator.clipboard.writeText(addressText);
-        }); 
+      copy_address.forEach(copy => {
+        copy.addEventListener("click", function() {   
+            let message = copy.querySelector('.message');
+            let intervalId;
+                let addressText = `0x4334ef6f3600280A0935964799025BbaE86b4f33`
+                message.classList.add('active')
+                if (intervalId) {  
+                    clearInterval(intervalId);
+                }
+    
+                intervalId = setInterval(() => {
+                    message.classList.remove('active')
+                    clearInterval(intervalId);  
+                }, 1000);
+    
+                navigator.clipboard.writeText(addressText);
+            }); 
+      })
 
