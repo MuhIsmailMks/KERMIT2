@@ -1007,13 +1007,20 @@ body::before{
     background-color: var(--dgrey);
     border: 2px solid var(--h-dgrey);
     border-radius: 100px;
+    
+    font-size: 2rem;
+    letter-spacing: 1px;
+
     box-shadow: -5px 6px 0 0 var(--grey);
     color: white;
-    font-family: var(--heading);
-    font-size: var(--btn-large);
+    font-family: var(--heading); 
     justify-content: center;
     padding: calc(var(--gutter)/2);
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
 }
 
 #contract .clipboard:hover {
@@ -1404,11 +1411,14 @@ body::before{
 }
 
 .copy_address.desktop{
-    width: 600px;
+    width: auto;
+    cursor: pointer;
+
     display: flex;
     justify-content: center;
     align-items: center; 
     gap: 1rem;
+
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1416,6 +1426,10 @@ body::before{
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+}
+
+.copy_address.desktop:hover{
+    border-bottom: 2px solid black;
 }
 
 .navigation .copy_address.desktop p,
@@ -1452,6 +1466,7 @@ body::before{
 
     #contract .clipboard{
         height: 70px;
+        font-size: 1.5rem;
     }
 
     .box-list .photo{
