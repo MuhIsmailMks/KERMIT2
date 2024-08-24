@@ -1485,7 +1485,6 @@ body::before{
 }
 
 /* tokenomics */
-
 .tokenomics {
     padding: 70px 0 40vw;
     max-width: 100% !important;
@@ -1614,6 +1613,10 @@ body::before{
 
     .tokenomics__item{
         width: 80%;
+     }
+
+     #contract{
+        margin-top: -25vw;
      }
 
      
