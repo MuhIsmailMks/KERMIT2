@@ -646,12 +646,12 @@ body::before{
     width: calc(var(--global-padding)*2 + 100%)
 }
 
-.circle {
+.circle { 
     align-items: center; 
     border: 2px solid var(--shadow-primary);
     border-radius: 50%;
-    box-shadow: inset 0 0 0 5px var(--h-dgrey);
-    background-color: var(--dgrey); 
+    box-shadow: inset 0 0 0 5px rgb(252, 255, 50);
+    background-color: var(--secondary); 
     box-sizing: border-box;
     display: flex;
     height: 50px;
@@ -662,7 +662,11 @@ body::before{
 
 .circle:hover {
     box-shadow: 0 0 0 0 var(--shadow-primary);
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 .socials {
@@ -751,7 +755,7 @@ body::before{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: var(--h-dgrey);
+    background-color: var(--negative);
 }
 
 .photo:before {
@@ -1764,6 +1768,7 @@ body::before{
 
 .tron_icon,
 .social_grup a i,
+.social_grup a img,
 .socials a i{
     transition: .3s ease-out;
     -webkit-transition: .3s ease-out;
@@ -1772,8 +1777,18 @@ body::before{
     -o-transition: .3s ease-out;
 }
 
+.footer_tron:hover{ 
+    transform: rotate(-360deg) !important;
+    -webkit-transform: rotate(-360deg) !important;
+    -moz-transform: rotate(-360deg) !important;
+    -ms-transform: rotate(-360deg) !important;
+    -o-transform: rotate(-360deg) !important;
+}
+
 .btn:hover .tron_icon,
 .social_grup a:hover i,
+.social_grup a:hover img,
+#promo .footer_tron:hover img,
 .socials a:hover i{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
