@@ -438,6 +438,10 @@ button:hover {
     background-image: url('../media/tg-y.1ff621c84b353a2677d7.svg')
 }
 
+[data-ico=tron]:before {
+    background-image: url('../media/tron.webp')
+}
+
 [data-ico=tw]:before {
     background-image: url('../media/tw.346074fa2436cc242e83.svg')
 }
@@ -1021,7 +1025,9 @@ body::before{
     align-items: center;
     display: flex;
     gap: 7px;
-    justify-content: center
+    justify-content: center;
+
+    width: 250px;
 }
 
 #contract .btn-group .btn span {
@@ -1094,7 +1100,8 @@ body::before{
     font-size: 16px;
     margin-top: var(--v-small);
     position: relative;
-    z-index: 2
+    z-index: 2;
+    margin: 2rem auto 0;
 }
 
 .contractCopy .message {
@@ -1605,6 +1612,12 @@ body::before{
         width: 100%;
     }
 
+    #contract .social_grup p{
+        width: 50%;
+        text-align: left;
+        padding-left: 1rem;
+      }
+
 }
 
 @media (min-width: 1024px) {
@@ -1697,6 +1710,7 @@ body::before{
     margin: 0;
 }
 
+.tron_icon,
 .social_grup a i,
 .socials a i{
     transition: .3s ease-out;
@@ -1706,6 +1720,7 @@ body::before{
     -o-transition: .3s ease-out;
 }
 
+.btn:hover .tron_icon,
 .social_grup a:hover i,
 .socials a:hover i{
     transform: rotate(360deg);
@@ -1747,3 +1762,10 @@ body::before{
   #promo .btn:not(.spaceless){
     margin-top: 0 !important;
   }
+
+  .tron_icon{
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+  }
+
