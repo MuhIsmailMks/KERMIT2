@@ -309,19 +309,11 @@ button:hover {
     background-color: var(--primary);
     color: white;
 }
-
-.btn.primary:hover {
-    /* background-color: var(--text-blue) */
-}
-
+ 
 .btn.secondary {
     background-color: var(--secondary);
     color: var(--primary)
-}
-
-/* .btn.secondary:hover {
-    background-color: var(--h-teal)
-} */
+} 
 
 .btn.yellow {
     background-color: var(--yellow)
@@ -337,10 +329,7 @@ button:hover {
     color:black;
     position: relative;
 }
-
-.navigation .buttons{
-    /* margin-right: 2rem; */
-}
+ 
 
 .btn.hollow::before,
 .btn.hollow::after{
@@ -542,7 +531,11 @@ body::before{
     margin-left: auto;
     margin-right: auto;
     /* max-width: var(--global-width); */
-    
+}
+
+
+.Midorima_font{
+    font-family:  "Midorima", cursive;
 }
 
 .global_padding{
@@ -893,6 +886,10 @@ body::before{
     -moz-transition: .4s ease-in-out;
     -ms-transition: .4s ease-in-out;
     -o-transition: .4s ease-in-out;
+}
+
+.about_hero{
+    font-size: 2.2rem;
 }
 
 #hero .photo:hover{
@@ -1482,6 +1479,9 @@ body::before{
 
 .about p{ 
     width: 70%;
+    font-size: 2rem;
+    color: black;
+    letter-spacing: .5px;
 }
 
 /* tokenomics */
@@ -1619,7 +1619,10 @@ body::before{
         margin-top: -25vw;
      }
 
-     
+     .about p{ 
+    width: 90%;
+    font-size: 1.5rem;   
+    }
 }
 
 @media (max-width: 804px) {
