@@ -1128,6 +1128,7 @@ body::before{
     position: relative;
     z-index: 2;
     margin: 2rem auto 0;
+    max-width:90%;
 }
 
 .contractCopy .message {
@@ -1594,6 +1595,10 @@ body::before{
         margin-bottom: 1rem;
     }
 
+    #about{
+        margin-bottom: 4rem !important;
+    }
+
     .about p{ 
         width: 90%;
     }
@@ -1607,7 +1612,9 @@ body::before{
 
     .tokenomics__item{
         width: 80%;
-      }
+     }
+
+     
 }
 
 @media (max-width: 804px) {
@@ -1656,6 +1663,10 @@ body::before{
         -ms-transition: .1s ease-in all;
         -o-transition: .1s ease-in all;
     }
+
+    .contractCopy{
+        width: 80%;
+     }
 
     .menu_btn div{
         display: flex;
@@ -1818,6 +1829,7 @@ body::before{
         font-size: 14vw;
       }
 
+      
      
     
 }
