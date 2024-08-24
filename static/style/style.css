@@ -1467,7 +1467,21 @@ body::before{
     object-fit: contain;
 }
  
+/* about */
+.about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.about h2{
+    font-size: 6rem;
+}
+
+.about p{ 
+    width: 70%;
+}
 
 /* media queries */
 @media (max-width: 504px) {
@@ -1494,6 +1508,10 @@ body::before{
     .box-list .photo{
         width: 90%;
         margin-bottom: 1rem;
+    }
+
+    .about p{ 
+        width: 90%;
     }
 }
 
@@ -1916,5 +1934,5 @@ body::before{
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
 }
-
 }
+
