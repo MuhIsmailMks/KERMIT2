@@ -69,6 +69,18 @@
   .social-sect__item {
     width: 160px;
   }
+
+  footer{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem !important;
+    padding-bottom: 0px !important;
+  }
+
+  .social-sect{
+    position: relative;
+  }
 }
 
 @media (max-width: 991px) {
