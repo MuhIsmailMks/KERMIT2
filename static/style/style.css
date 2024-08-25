@@ -1297,8 +1297,9 @@ body::before {
 .footer {
   padding-bottom: 1rem;
   /* padding-top: var(--v-medium); */
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .footer a {
@@ -1309,6 +1310,7 @@ body::before {
 .footer .info a {
   font-size: 22px;
   -webkit-text-stroke: 1px black;
+  z-index: 99;
 }
 
 .footer .info > .copy :not(:last-child) {
@@ -2342,15 +2344,40 @@ footer{
     position: absolute; 
   text-align: center;
   margin-bottom: 0 !important; ;
-  z-index: 1;
+  z-index: 0;
   bottom: 0;
+}
+
+.social-sect .container{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-sect__img{
     width: 60%;
     height: auto;
-    object-fit: contain;
     /* margin-bottom: 3rem; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.social-sect__img img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.social-sect__img .lottie{
+  position: absolute;
+  width: 38%;
+  height: auto;
+  right: 12%;
 }
 
 .social-sect__head {
