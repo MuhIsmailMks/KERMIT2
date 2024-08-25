@@ -1676,7 +1676,7 @@ body::before {
   text-align: center;
   line-height: 1;
   font-size: 100px;
-  color: var(--primary);
+  color: var(--primary); 
 }
 .tokenomics__item * {
   letter-spacing: 0.03em;
@@ -1729,13 +1729,14 @@ body::before {
   }
 
   .tokenomics {
-    padding: 0px 0 65vw !important;
+    padding: 0px 0 43vw !important;
     background: url("../media/tokenomics.png") no-repeat 50% 100% !important;
   }
 
   .tokenomics__item {
     width: 45%;
     min-width: 140px;
+    
   }
 
   #contract {
