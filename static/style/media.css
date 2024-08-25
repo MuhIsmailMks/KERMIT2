@@ -26,3 +26,97 @@
         width: 600px;
     }
 }
+
+@media (max-width: 1599px) {
+    .how-buy__head {
+        margin-bottom: 15px;
+      }
+      .how-buy__img {
+        width:600px; 
+      }
+      .how-buy__wrapper {
+        padding-top: 160px;
+        min-height: 600px;
+      }
+      .how-buy__item-content {
+        padding: 15px 20px;
+        max-width: 360px;
+        min-height: 130px;
+        font-size: 16px;
+      }
+      .how-buy__item:nth-child(3) {
+        padding-top: 110px;
+      }
+      .how-buy__item:nth-child(4) {
+        padding-top: 120px;
+      }
+}
+
+@media (max-width: 991px) {
+    .how-buy__head {
+        margin-bottom: 30px;
+      }
+      .how-buy__wrapper {
+        padding: 0;
+        min-height: auto;
+      }
+      .how-buy__img {
+        display: none;
+      }
+      .how-buy__img._mobile {
+        display: block;
+      }
+      .how-buy__img._mobile{
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin: 2rem 3vw;
+      }
+      .how-buy__wrap {
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        gap: 20px;
+      }
+      .how-buy__item:nth-child(n) {
+        padding: 0;
+      }
+      .how-buy__item-content {
+        -ms-flex-item-align: stretch;
+            -ms-grid-row-align: stretch;
+            align-self: stretch;
+        min-height: auto;
+      }
+    
+}
+
+
+@media (max-width: 750px) {
+    .how-buy__item {
+        min-width: 100%;
+      }
+}
+  
+
+
+@media (max-width: 575px) {
+    .how-buy {
+        margin: 0px 0;
+      }
+      .how-buy__wrap,
+      .how-buy__item {
+        gap: 15px;
+      }
+      .how-buy__item-number {
+        font-size: 90px;
+      }
+      .how-buy__item-content {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 0px;
+                flex: 1 0 0;
+        padding: 10px 15px;
+        max-width: none;
+        font-size: 14px;
+      }
+}
+  
