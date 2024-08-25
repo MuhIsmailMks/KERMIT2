@@ -13,24 +13,14 @@
     align-items: center;
     justify-content: center;
 
-    height: 750px;
+    height: auto;
   }
 
   #hero .photo {
     width: 400px;
   }
 }
-
-@media screen and (min-width: 1400px) {
-    
-  #hero { 
-    height: 850px;
-  }
-
-  #hero .photo {
-    width: 600px;
-  }
-}
+ 
 
 @media (min-width: 1599px) {
     .how-buy__img {
@@ -64,6 +54,8 @@
 }
 
 @media (max-width: 1199px) { 
+
+
   .social-sect__grid {
     gap: 20px 15px;
   }
@@ -73,6 +65,11 @@
 }
 
 @media (max-width: 991px) {
+
+  .hero_content_container{
+    flex-direction: column ;
+  }
+
     #about {
         padding-top: var(--v-medium);
       }

@@ -1441,6 +1441,15 @@ body::before {
   line-height: 1;
 }
 
+.hero_content_container{
+  flex-direction: column-reverse ;
+  gap: 4rem;
+}
+
+.hero_content{
+  text-align: center;
+}
+
 .link_btn {
   margin-top: 2rem;
 }
