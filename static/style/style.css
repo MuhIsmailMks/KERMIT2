@@ -1294,7 +1294,7 @@ body::before {
 
 .footer {
   padding-bottom: 1rem;
-  padding-top: var(--v-medium);
+  /* padding-top: var(--v-medium); */
   position: relative;
   z-index: 1;
 }
@@ -2340,10 +2340,10 @@ footer{
 }
 
 .social-sect__img{
-    width: 100%;
+    width: 70%;
     height: auto;
     object-fit: contain;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .social-sect__head {
