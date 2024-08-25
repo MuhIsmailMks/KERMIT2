@@ -1961,9 +1961,11 @@ body::before {
     text-align: left;
     padding-left: 1rem;
   }
+ 
 
   .hero_img_char {
-    bottom: 13px !important;
+    width: 90% !important;
+    bottom: -10px !important;
   }
 
   .tokenomics {
@@ -2150,7 +2152,7 @@ body::before {
   z-index: 10;
   bottom: 0px;
 
-  width: 85% !important;
+  width: 85% ;
   border: none !important;
 }
 
