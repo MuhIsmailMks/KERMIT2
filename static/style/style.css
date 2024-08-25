@@ -2187,6 +2187,7 @@ body::before{
     background: #fff; 
     text-align: center;
     color: #202020;
+    
   }
   .how-buy__item:nth-child(even) {
     -webkit-box-orient: horizontal;
