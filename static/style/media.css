@@ -27,12 +27,18 @@
   }
 }
 
+@media (min-width: 1599px) {
+    .how-buy__img {
+        width: 70%;
+        top: 0%;
+      }
+}
 @media (max-width: 1599px) {
   .how-buy__head {
     margin-bottom: 15px;
   }
   .how-buy__img {
-    width: 600px;
+    width: 900px;
   }
   .how-buy__wrapper {
     padding-top: 160px;
@@ -80,9 +86,9 @@
   }
   .how-buy__img._mobile {
     position: relative;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 2rem 3vw;
+    margin: 2rem auto;
   }
   .how-buy__wrap {
     -webkit-box-align: stretch;
