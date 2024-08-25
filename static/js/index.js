@@ -1,6 +1,10 @@
-AOS.init({
-    once: true
-});
+
+window.addEventListener("DOMContentLoaded", () => {
+  
+    AOS.init({
+        once: true
+    });
+})
 
 // menu 
 const menu_btn = document.querySelector('.menu_btn');
