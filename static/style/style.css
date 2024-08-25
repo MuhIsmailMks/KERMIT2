@@ -1467,7 +1467,7 @@ body::before {
 }
 
 .logo_text {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1;
   color: var(--primary);
   text-shadow: -1px 4px 0 black;
@@ -1476,7 +1476,7 @@ body::before {
 }
 
 .logo_container img {
-  width: 90px;
+  width: 70px;
   height: auto;
   object-fit: contain;
 }
