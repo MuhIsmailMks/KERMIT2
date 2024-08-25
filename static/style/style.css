@@ -2276,6 +2276,10 @@ body::before {
   color: #202020;
 }
 
+.how-buy__item-content span{
+    font-size: 1.75rem;
+}
+
 .how-buy__item:nth-child(even) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
