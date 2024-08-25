@@ -18,7 +18,7 @@ menu_btn.addEventListener('click', () => {
      copybtn.addEventListener("click", function() { 
         let textSpan = copybtn.querySelector('span');
         let intervalId;
-            let addressText = document.querySelector(".value").getAttribute('value');
+            let addressText = `00000000000000000000000000000000000000000DEAD`
             textSpan.innerHTML = 'COPY';
 
             if (intervalId) {  
@@ -26,7 +26,7 @@ menu_btn.addEventListener('click', () => {
             }
 
             intervalId = setInterval(() => {
-                textSpan.innerHTML = '0x4334ef6f3600280A0935964799025BbaE86b4f33'; 
+                textSpan.innerHTML = '00000000000000000000000000000000000000000DEAD'; 
                 // textSpan.innerHTML = ''; 
                 clearInterval(intervalId);  
             }, 1000);
@@ -38,7 +38,7 @@ menu_btn.addEventListener('click', () => {
         copy.addEventListener("click", function() {   
             let message = copy.querySelector('.message');
             let intervalId;
-                let addressText = `0x4334ef6f3600280A0935964799025BbaE86b4f33`
+                let addressText = `00000000000000000000000000000000000000000DEAD`
                 message.classList.add('active')
                 if (intervalId) {  
                     clearInterval(intervalId);
