@@ -1959,7 +1959,7 @@ body::before {
   #contract .social_grup p {
     width: 50%;
     text-align: left;
-    padding-left: 1rem;
+    padding-left: .5rem;
   }
  
 
