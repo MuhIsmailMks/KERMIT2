@@ -11,6 +11,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+
+        height: 850px;
     }
 
     #hero .photo{
@@ -18,7 +21,7 @@
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1400px) {
     #hero .photo{
         width: 600px;
     }

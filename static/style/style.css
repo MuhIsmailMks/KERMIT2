@@ -914,6 +914,7 @@ body::before{
 
 .about_hero{
     font-size: 2.2rem;
+    line-height: 1;
 }
 
 #hero .photo:hover{
@@ -1337,6 +1338,7 @@ body::before{
 
 .hero_title{
     font-size: 150px;
+    line-height: 1;
 }
 
 .link_btn{
@@ -2091,3 +2093,7 @@ body::before{
         }
         }
 
+
+        .no_margin{
+            margin: 1rem !important;
+        }
