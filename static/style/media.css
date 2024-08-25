@@ -1,3 +1,13 @@
+@media screen and (max-width: 1200px) {
+  #contract {
+    padding-top: 2rem !important;
+  }
+
+  #contract .clipboard{
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero_content {
     padding: 0 0 0 1rem !important;
@@ -22,20 +32,20 @@
 }
  
 
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   #about {
     padding-top: 4rem;
   }
 }
 
-@media (min-width: 1599px) {
+@media screen and (min-width: 1599px) {
     .how-buy__img {
         width: 70%;
         top: 0%;
       }
 }
 
-@media (max-width: 1599px) {
+@media screen and (max-width: 1599px) {
   .how-buy__head {
     margin-bottom: 15px;
   }
@@ -60,7 +70,7 @@
   }
 }
 
-@media (max-width: 1199px) { 
+@media screen and (max-width: 1199px) { 
 
 
   .social-sect__grid {
@@ -83,7 +93,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 
   .hero_content_container{
     flex-direction: column ;
@@ -132,7 +142,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .how-buy__item {
     min-width: 100%;
   }
@@ -146,7 +156,7 @@
   }
 }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
     
     .logo_container img{
         width: 65px;
@@ -156,10 +166,19 @@
       width: 70%;
     }
 
+    .hero_title{
+      width: 100%;
+    }
+
     .hero_content{
       width: 100%;
       padding-right: 3%;
     }
+
+    #contract {
+      padding-top: 0rem !important;
+    }
+    
     
   .how-buy {
     margin: 0px 0;

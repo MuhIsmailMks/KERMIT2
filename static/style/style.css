@@ -1926,6 +1926,7 @@ body::before {
   .hero_title {
     text-align: center;
     font-size: 34vw;
+    width: 70%;
     line-height: 1;
     margin: 1rem 0;
   }
