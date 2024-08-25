@@ -639,6 +639,9 @@ body::before {
 #root {
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  overflow: hidden;
+
   /* max-width: var(--global-width); */
 }
 
@@ -1964,8 +1967,9 @@ body::before {
  
 
   .hero_img_char {
-    width: 90% !important;
-    bottom: -10px !important;
+    width: 80% !important;
+    bottom: -30px !important;
+    left: 10%;
   }
 
   .tokenomics {
