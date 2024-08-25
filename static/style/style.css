@@ -405,7 +405,7 @@ button:hover {
 
 .btn.large {
   font-size: var(--btn-huge);
-  padding: var(--btn-large-padding);
+  /* padding: var(--btn-large-padding); */
 }
 
 .btn-tiny {
