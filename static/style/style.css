@@ -2148,9 +2148,9 @@ body::before {
 .hero_img_char {
   position: absolute;
   z-index: 10;
-  bottom: 33px;
+  bottom: 0px;
 
-  width: 90% !important;
+  width: 85% !important;
   border: none !important;
 }
 
