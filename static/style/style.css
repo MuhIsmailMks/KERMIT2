@@ -1802,7 +1802,9 @@ body::before{
 
     .hero_title{
         text-align: center;
-        font-size: 24vw;
+        font-size: 34vw;
+        line-height: 1;
+        margin: 1rem 0;
     }
 
     .about_hero{

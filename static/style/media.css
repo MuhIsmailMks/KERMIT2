@@ -12,4 +12,14 @@
         flex-direction: column;
         align-items: center;
     }
+
+    #hero .photo{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    #hero .photo{
+        width: 600px;
+    }
 }
