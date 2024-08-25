@@ -1295,7 +1295,7 @@ body::before {
 .footer {
   padding-bottom: 1rem;
   /* padding-top: var(--v-medium); */
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
 
@@ -2328,19 +2328,23 @@ body::before {
 /* social section */
 footer{    
   background-color: var(--primary); 
+  height: 20vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 .social-sect { 
-    position: relative; 
+    position: absolute; 
   text-align: center;
-  margin-bottom: 0 !important;
-  background-color: var(--primary);
+  margin-bottom: 0 !important; ;
   z-index: 1;
-  padding: 2rem 0;
+  bottom: 0;
 }
 
 .social-sect__img{
-    width: 70%;
+    width: 60%;
     height: auto;
     object-fit: contain;
     /* margin-bottom: 3rem; */
