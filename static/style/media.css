@@ -168,6 +168,20 @@
     justify-content: center;
   }
 
+  .contract_content{
+    padding-top: 2rem;
+  }
+
+  #contract::after{
+    content: "";
+    position: absolute;
+    width: 250vw;
+    height: 250vw;
+    min-height: 1000px;
+    min-width: 1000px;
+    left: -70vw;
+    top: -60vw; 
+}
   
 }
 
