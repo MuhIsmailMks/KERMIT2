@@ -192,7 +192,7 @@
           data-aos-duration="500"
           data-aos-delay="300">
          
-              <figure class="photo">
+              <figure class="photo hero_photo">
               <img
                 loading="lazy"
                 src="./static/media/bg_hero.svg"
@@ -206,6 +206,7 @@
               <img src="./static/media/circle.png" alt="" class="bg_hero_character">
              </div>
             </figure>  
+
           </div>
 
         </div>
@@ -268,7 +269,7 @@
 
             <div class="how-buy__wrap">
 
-              <div class="how-buy__item" >
+              <div class="how-buy__item howItem1" >
                 <div class="how-buy__item-number" data-aos="fade-right"
                 data-aos-duration="500"
                 data-aos-delay="300">1</div>
@@ -279,7 +280,7 @@
                   Download and install TronLink on the appstore, or, alternatively if you’re on desktop download and install the browser extension.
                 </div>
               </div>
-              <div class="how-buy__item">
+              <div class="how-buy__item howItem2">
                 <div class="how-buy__item-number" data-aos="fade-left"
                 data-aos-duration="500"
                 data-aos-delay="400">2</div>
@@ -290,7 +291,7 @@
                   Now go to CEX and withdraw your TRX to your wallet
                 </div>
               </div>
-              <div class="how-buy__item" >
+              <div class="how-buy__item howItem3" >
                 <div class="how-buy__item-number" data-aos="fade-right"
                 data-aos-duration="500"
                 data-aos-delay="500">3</div>
@@ -303,7 +304,7 @@
                   Now go to sunswap.com and paste the $norT contract address to swap your TRX.
                 </div>
               </div>
-              <div class="how-buy__item">
+              <div class="how-buy__item howItem4">
                 <div class="how-buy__item-number" data-aos="fade-left"
                 data-aos-duration="500"
                 data-aos-delay="600">4</div>
@@ -327,6 +328,7 @@
       <section class="tokenomics">
 		
         <div class="tokenomics__wrap">
+
           <h2 class="tokenomics__head title_section" data-aos="fade-up" data-aos-duration="500"
           data-aos-delay="300"><span>NORT</span>NOMICS</h2>
            
@@ -361,6 +363,7 @@
             </div>
     
           </div>
+          
         </div>
         
       </section> 
@@ -492,11 +495,18 @@
 
     </main>
 
+    
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollSmoother.min.js"></script>
+
     <!-- lottie --> 
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
-        <!-- aos js library animation -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- aos js library animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="./static/js/index.js"></script>
+    <script src="./static/js/animations.js"></script>
   </body>
 </html>
