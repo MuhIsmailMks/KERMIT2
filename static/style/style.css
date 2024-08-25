@@ -2309,11 +2309,17 @@ body::before {
 }
 
 /* social section */
+footer{    
+  background-color: var(--primary); 
+}
 
 .social-sect { 
-  margin: 2rem 0;
+    position: relative; 
   text-align: center;
   margin-bottom: 0 !important;
+  background-color: var(--primary);
+  z-index: 1;
+  padding: 2rem 0;
 }
 
 .social-sect__img{
