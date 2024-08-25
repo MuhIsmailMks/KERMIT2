@@ -2164,6 +2164,8 @@ body::before{
             flex: none;
     font: 400 144px/1  sans-serif;
     font-family:"Midorima", cursive;
+    color: var(--secondary);
+    -webkit-text-stroke: 2px var(--primary);
   }
   .how-buy__item-content {
     display: -webkit-box;
