@@ -153,6 +153,12 @@ blockquote,q {
     src: url('../media/Monigue.woff');
 } 
 
+@font-face {
+    font-display: swap;
+    font-family: objective; 
+    src: url('../media/Objectis.ttf');
+} 
+
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading);
     font-weight: 600;
@@ -509,7 +515,9 @@ body {
     font-size: var(--paragraph);
     line-height: var(--globall-line-height);
     
-    font-family: "Comic Neue", cursive;
+    font-family:"Midorima", cursive;
+    /* font-family: "Comic Neue", cursive; */
+    /* font-family: objective, cursive; */
     overflow-x: hidden;
     text-shadow: 1px 1px 1px rgba(0,0,0,.004)
 }
@@ -536,6 +544,22 @@ body::before{
 
 .Midorima_font{
     font-family:  "Midorima", cursive;
+}
+
+.objective_font{
+    font-family: "objective", cursive; 
+}
+
+.global_maxWidth{
+     max-width: var(--global-width);
+}
+
+.title_nort{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  var(--shadow-primary);
+    text-shadow: -1px 0px 0 var(--shadow-primary);
+    font-size: 6.5rem;
+    font-family: "objective", cursive; 
 }
 
 .global_padding{
@@ -1858,7 +1882,7 @@ body::before{
     #others h3 {
         margin-left: auto;
         margin-right: auto;
-        max-width: 640px
+        max-width: 640px;
     }
 }
 
@@ -2011,6 +2035,7 @@ body::before{
     letter-spacing: 1px;
   } 
 
+
   .hero_img_char{
     position: absolute;
     z-index: 10;
@@ -2047,20 +2072,20 @@ body::before{
         -webkit-animation: rotateCirlce 10s infinite linear;
     }
 
-@keyframes rotateCirlce {
-    0%{
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-}
-}
+        @keyframes rotateCirlce {
+            0%{
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+        }
+        }
 
