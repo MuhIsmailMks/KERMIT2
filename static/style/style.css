@@ -2195,7 +2195,11 @@ body::before {
 .how-buy {
   position: relative;
   margin: 75px 0;
-  padding: 0 1rem;
+  
+}
+
+.how-buy__wrap{
+    padding: 0 2rem;
 }
 
 .how-buy__head {
@@ -2205,7 +2209,7 @@ body::before {
 .how-buy__wrapper {
   position: relative;
   margin: 0 auto;
-  padding: 215px 0 0;
+  padding: 215px 0 2rem;
   max-width: 1510px;
   min-height: 800px;
 }

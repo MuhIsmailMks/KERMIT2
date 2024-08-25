@@ -72,9 +72,12 @@
     margin-bottom: 30px;
   }
   .how-buy__wrapper {
-    padding: 0;
+    padding: 0 1rem;
     min-height: auto;
   }
+  .how-buy__wrap{
+    padding: 0rem;
+}
   .how-buy__img {
     display: none;
   }
