@@ -3,6 +3,10 @@
     padding: 0 0 0 1rem !important;
   }
 
+  #hero .social_grup{
+    align-items: start;
+  }
+
   .hero_content_container {
     width: 100%;
   }
@@ -58,10 +62,7 @@
   }
 }
 
-@media (max-width: 1199px) {
-  .social-sect {
-    padding-bottom: 50%;
-  }
+@media (max-width: 1199px) { 
   .social-sect__grid {
     gap: 20px 15px;
   }
@@ -157,6 +158,13 @@
   }
   .social-sect__item {
     width: 25vw;
+  }
+
+  .link_contract{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

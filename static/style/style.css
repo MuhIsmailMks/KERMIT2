@@ -1209,6 +1209,7 @@ body::before {
 
 #contract .btn-group {
   flex-flow: row wrap;
+  gap: 1rem;
 }
 
 @media (max-width: 1023px) {
@@ -2304,11 +2305,17 @@ body::before {
 
 /* social section */
 
-.social-sect {
-  padding: 45px 0 37%;
-  background: url("../media/social-sect.png") no-repeat 50% 100%/100% auto;
+.social-sect { 
+  margin: 2rem 0;
   text-align: center;
   margin-bottom: 0 !important;
+}
+
+.social-sect__img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 3rem;
 }
 
 .social-sect__head {
@@ -2420,3 +2427,6 @@ body::before {
     max-height: 100%;
   }
   
+
+
+  /* animation */

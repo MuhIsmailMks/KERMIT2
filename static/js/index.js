@@ -1,3 +1,7 @@
+AOS.init({
+    once: true
+});
+
 // menu 
 const menu_btn = document.querySelector('.menu_btn');
 const links = document.querySelector('.links');

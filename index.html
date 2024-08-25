@@ -44,6 +44,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./static/media/logo.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./static/media/logo.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./static/media/logo.png" /> 
+     <!-- AOS scroll effect cdn --> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link rel="stylesheet" href="./static/style/style.css"> 
     <link rel="stylesheet" href="./static/style/media.css">
     <title>norT</title>
@@ -54,12 +56,15 @@
     /> 
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+
     <main id="root">
 
       <nav class="navigation logo-left spaceless z_99 global_padding"> 
       
-        <div class="logo_container">
+        <div class="logo_container" data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="200">
           <figure>
             <img src="./static/media/logo.png" alt="">
         </figure>
@@ -67,15 +72,23 @@
         </div> 
 
 
-        <div class="copy_address desktop">
-          <p>contract :   </p>
-          <span class="value" >0x4334ef6.....4f33</span>
+        <div class="copy_address desktop" >
+          <p data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">contract :   </p>
+          <span class="value" data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">0x4334ef6.....4f33</span>
 
-          <img src="./static/media/clipboardBlack.svg" alt="" class="copy_btn">
+          <img src="./static/media/clipboardBlack.svg" alt="" class="copy_btn" data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-delay="200">
           <aside class="message">COPIED</aside>
         </div>
        
-        <div class="buttons">
+        <div class="buttons" data-aos="fade-left"
+        data-aos-duration="500"
+        data-aos-delay="300">
           <a
           href="https://app.uniswap.org"
           target="_blank"
@@ -111,15 +124,24 @@
       </nav>
 
       <section id="hero" class="h-split p-oriented spaceless ltr ">
+
         <div class="grid-x align-middle justify global_maxWidth hero_content_container">
+
           <div class="cell-6 cnt-txt hero_content">
-            <h1 class="hero_title">Meet  <span class="title_nort"  >norT</span></h1>
-            <div class="cnt speech ">
+            <h1 class="hero_title" data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="300">Meet  <span class="title_nort"  >norT</span></h1>
+            <div class="cnt speech " data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-delay="400">
               <p class="enlarged about_hero black_color ">
                 The 4 Shiba’s of Japan,  call the “Modern” Shiba.
               </p>
             </div>
-            <div class="get_btn social_grup">
+            <div class="get_btn social_grup" >
+             <span data-aos="fade-right"
+             data-aos-duration="500"
+             data-aos-delay="500" style="margin: 2.5rem 0 0;">
               <a
               href="https://app.uniswap.org"
               target="_blank"
@@ -128,7 +150,10 @@
                 rel="noreferrer" 
                 >Get nort</a
               >
-              <div class="socials ">
+             </span>
+              <div class="socials" data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-delay="600">
                 <a
                   class="circle"
                   href="https://x.com"
@@ -169,7 +194,10 @@
               </div>
             </div>
           </div>
-          <div class="cell-6 cnt-img hero_img">
+
+          <div class="cell-6 cnt-img hero_img" data-aos="fade-left"
+          data-aos-duration="500"
+          data-aos-delay="300">
             <figure class="photo">
               <img
                 loading="lazy"
@@ -192,7 +220,9 @@
              </div>
             </figure>
           </div>
+
         </div>
+
         <div class="note fw">
           <div class="marquee bordered marquee-left">
             <div class="marquee-el" style="animation-duration: 45s;">
@@ -207,44 +237,67 @@
             </div>
           </div>
         </div>
+
       </section>
 
       <section id="about" class="about Midorima_font">
-        <h2 class="title_section">ABOUT <span>US</span></h2>
-        <p >Kermit the Frog is a frog puppet created by American puppeteer Jim Henson, most notable for his appearances on the television shows The Muppets and Sesame Street. Kermit has become an icon of popular culture, and he is a prominent subject of multiple internet memes, including Kermit Drinking Tea, Evil Kermit, Kermit Falling Down a Stairwell and many others. Kermit the Frog's earliest incarnation aired on the television show Sam and Friends, which aired in 1955.[1] The puppet wasn't supposed to be a frog, but eventually became one during the 1960s. In the 1970s, he appeared on Sesame Street, often in the role of a news reporter, and later on The Muppet Show as the host of the program. Since then, Kermit has appeared most notably in various movies, including Muppet Treasure Island in 1996 and The Muppets in the 2011.</p>
+        <h2 class="title_section" data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="200">ABOUT <span>US</span></h2>
+        <p data-aos="fade-up"
+        data-aos-duration="500"
+        data-aos-delay="300">Kermit the Frog is a frog puppet created by American puppeteer Jim Henson, most notable for his appearances on the television shows The Muppets and Sesame Street. Kermit has become an icon of popular culture, and he is a prominent subject of multiple internet memes, including Kermit Drinking Tea, Evil Kermit, Kermit Falling Down a Stairwell and many others. Kermit the Frog's earliest incarnation aired on the television show Sam and Friends, which aired in 1955.[1] The puppet wasn't supposed to be a frog, but eventually became one during the 1960s. In the 1970s, he appeared on Sesame Street, often in the role of a news reporter, and later on The Muppet Show as the host of the program. Since then, Kermit has appeared most notably in various movies, including Muppet Treasure Island in 1996 and The Muppets in the 2011.</p>
       </section>
 
 
       <section id="how-buy" class="how-buy overflow-hidden relative_element">
         <div class="container-fluid">
-          <img
-              src="./static/media/how-buy.png"
-              alt
-              class="how-buy__img _mobile"
-              data-animate="animate__zoomIn"
-            />
+          <div data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-delay="300">
+            <img
+            src="./static/media/how-buy.png"
+            alt
+            class="how-buy__img _mobile"
+            data-animate="animate__zoomIn"
+          />
+          </div>
 
           <h2 class="title_section">How To Buy</h2>
           <div class="how-buy__wrapper">
-            <img
+            <div >
+              <img
               src="./static/media/how-buy.png"
               alt
-              class="how-buy__img"
-              data-animate="animate__zoomIn"
+              class="how-buy__img" 
+              data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="300"
             />
+            </div>
+
             <div class="how-buy__wrap">
-              <div class="how-buy__item" data-animate="animate__fadeInLeft">
-                <div class="how-buy__item-number">1</div>
-                <div class="how-buy__item-content happyDeamer_font">
+
+              <div class="how-buy__item" >
+                <div class="how-buy__item-number" data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-delay="300">1</div>
+                <div class="how-buy__item-content happyDeamer_font" data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-delay="300">
                   <span class="font-bold uppercase"> Create a Wallet</span>
                   download metamask or your wallet of choice from the app
                   store or google play store for free. Desktop users, download
                   the google chrome extension by going to metamask.io.
                 </div>
               </div>
-              <div class="how-buy__item" data-animate="animate__fadeInRight">
-                <div class="how-buy__item-number">2</div>
-                <div class="how-buy__item-content happyDeamer_font">
+              <div class="how-buy__item">
+                <div class="how-buy__item-number" data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="400">2</div>
+                <div class="how-buy__item-content happyDeamer_font" data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="400">
                   <span class="font-bold uppercase">Get Some ETH </span>
                   have ETH in your wallet to switch to $WPEPE. If you don’t
                   have any ETH, you can buy directly on metamask, transfer
@@ -252,9 +305,13 @@
                   to your wallet.
                 </div>
               </div>
-              <div class="how-buy__item" data-animate="animate__fadeInLeft">
-                <div class="how-buy__item-number">3</div>
-                <div class="how-buy__item-content happyDeamer_font">
+              <div class="how-buy__item" >
+                <div class="how-buy__item-number" data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-delay="500">3</div>
+                <div class="how-buy__item-content happyDeamer_font" data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-delay="500">
                   <span class="font-bold uppercase">
                     Go to Uniswap
                   </span>
@@ -265,9 +322,13 @@
                   signature, sign.
                 </div>
               </div>
-              <div class="how-buy__item" data-animate="animate__fadeInRight">
-                <div class="how-buy__item-number">4</div>
-                <div class="how-buy__item-content happyDeamer_font">
+              <div class="how-buy__item">
+                <div class="how-buy__item-number" data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="600">4</div>
+                <div class="how-buy__item-content happyDeamer_font" data-aos="fade-left"
+                data-aos-duration="500"
+                data-aos-delay="600">
                   <span class="font-bold uppercase">
                     Switch ETH for $WPEPE
                   </span>
@@ -276,7 +337,9 @@
                   may need to use slippage during times of market volatility.
                 </div>
               </div>
+
             </div>
+
           </div>
         </div>
       </section>
@@ -285,26 +348,35 @@
       <section class="tokenomics">
 		
         <div class="tokenomics__wrap">
-          <h2 class="tokenomics__head title_section" data-aos="fade-up"><span>NORT</span>NOMICS</h2>
+          <h2 class="tokenomics__head title_section" data-aos="fade-up" data-aos-duration="500"
+          data-aos-delay="300"><span>NORT</span>NOMICS</h2>
            
           <div class="tokenomics__items">
     
-            <div class="tokenomics__item" >
+            <div class="tokenomics__item" data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="400">
               <div class="tokenomics__item-count">tax</div>
               <div class="tokenomics__item-head">0/0</div>
             </div>
     
-            <div class="tokenomics__item desk_token" >
+            <div class="tokenomics__item desk_token" data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="500">
               <div class="tokenomics__item-count">SUPPLY</div>
               <div class="tokenomics__item-head">420,690,000,000,000</div>
             </div>
     
-            <div class="tokenomics__item" >
+            <div class="tokenomics__item" data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="600">
               <div class="tokenomics__item-count">LP</div>
               <div class="tokenomics__item-head">BURNT</div>
             </div>
     
-            <div class="tokenomics__item mobile_token" >
+            <div class="tokenomics__item mobile_token" data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="700">
               <div class="tokenomics__item-count">SUPPLY</div>
               <div class="tokenomics__item-head">420,690,000,000,000</div>
             </div>
@@ -312,17 +384,21 @@
           </div>
         </div>
         
-      </section>
-    
+      </section> 
 
-
-      
 
       <section id="contract" class="spaceless" data-theme="light">
+
+      
         <div class="grid-x align-middle align-center">
+        
           <div class="cell-12">
             <div class="btn-group social_grup align-center">
-              <a
+
+              <div class="link_contract" data-aos="zoom-in"
+              data-aos-duration="500"
+              data-aos-delay="200">
+                <a
                 href="https://t.me"
                 class="btn primary large"
                 title="Telegram"
@@ -333,6 +409,11 @@
                 >
                 <p>TELEGRAM</p>
                 </a>
+              </div>
+
+               <div class="link_contract" data-aos="zoom-in"
+               data-aos-duration="500"
+               data-aos-delay="300">
                 <a
                 href="https://x.com"
                 class="btn secondary large"
@@ -343,7 +424,13 @@
                   ><i  data-ico="tw" data-theme="yellow"></i></span
                 >
                 <p>TWITTER</p>
-                </a  ><a
+                </a>
+               </div>
+
+                <div class="link_contract" data-aos="zoom-in"
+                data-aos-duration="500"
+                data-aos-delay="400">
+                  <a
                 href="https://www.dextools.io"
                 class="btn secondary large"
                 title="DEXTOOLS"
@@ -354,18 +441,28 @@
                 >
                 <p>DEXTOOLS</p>
                 </a>
+                </div>
+
+             <div class="link_contract" data-aos="zoom-in"
+             data-aos-duration="500"
+             data-aos-delay="500">
               <a
-                href="https://tron.network/"
-                class="btn primary large"
-                title="Telegram"
-                rel="noreferrer"
-                target="_blank"
-                > 
-                  <img src="./static/media/tron.webp" alt="" class="tron_icon" style="width: 50px;max-width: 50px;">
-                  <p>TRON</p>
-                  </a  >
+              href="https://tron.network/"
+              class="btn primary large"
+              title="Telegram"
+              rel="noreferrer"
+              target="_blank"
+              > 
+                <img src="./static/media/tron.webp" alt="" class="tron_icon" style="width: 50px;max-width: 50px;">
+                <p>TRON</p>
+                </a  >
+             </div>
+
             </div>
-            <section class="contractCopy cell-8">
+
+            <section class="contractCopy cell-8" data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="700">
               <input
               class="value"
                 type="text"
@@ -380,151 +477,72 @@
               </p>
             </section>
           </div>
+
         </div>
+
       </section>
        
-
-      <!-- <section id="promo" class="spaceless fw global_padding">
-
-        <div class="note fw">
-          <div class="marquee bordered marquee-left">
-            <div class="marquee-el" style="animation-duration: 45s;">
-              <p>
-                norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;
-              </p>
-            </div>
-            <div class="marquee-el" style="animation-duration: 45s;">
-              <p>
-                norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;norT&nbsp;&nbsp;
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid-x align-middle align-center content_promo">
-           
-            <div class="footer_logo">
-                <figure class="float_animation">
-                    <img src="./static/media/logo.png" alt="">
-                </figure>
-            </div>
-          
-            <div class="cnt-txt text-center social_container">
-            <h2>Socials</h2>
-            <h3>Join the NORT Culture</h3>
-            <div class="socials  align-center">
-              <a
-                class="circle"
-                href="https://x.com"
-                rel="noreferrer"
-                title="Jomon Twitter"
-                target="_blank"
-                ><i  data-ico="tw"></i></a
-              ><a
-                class="circle"
-                href="https://t.me"
-                rel="noreferrer"
-                title="Jomon Telegram"
-                target="_blank"
-                ><i  data-ico="tg"></i></a
-              ><a
-                class="circle"
-                href="https://www.dextools.io"
-                rel="noreferrer"
-                title="Jomon Dextools"
-                target="_blank"
-                ><i  data-ico="dextools"></i></a
-              ><a
-                class="circle"
-                href="https://dexscreener.com"
-                rel="noreferrer"
-                title="Jomon DexScreener"
-                target="_blank"
-                ><i  data-ico="dexscreener"></i></a
-              >
-              <a
-                  class="circle footer_tron"
-                  href="https://tron.network/index?lng=en"
-                  rel="noreferrer"
-                  title="tron"
-                  target="_blank"
-                  >
-                   <span>
-                    <img src="./static/media/tron_logo.svg" alt="" style="width: 50%;">
-                   </span>
-                </a>
-
-            </div>
-            <div class="get_btn social_grup align-center">
-              <a
-                href="https://app.uniswap.org"
-                class="btn primary"
-                title="GET norT"
-                rel="noreferrer" 
-                target="_blank"
-                >GET norT</a
-              >
-            </div>
-          </div>
-
-          <div class="footer_logo hidden_mobile">
-            <figure class="float_animation" style="animation-delay: -6s;">
-                <img src="./static/media/logo.png" alt="">
-            </figure>
-        </div>
-
-        </div>
-         
-      </section> -->
-    
        
-	<section class="social-sect">
-		<div class="container">
-			<h2 class="social-sect__head title_section" data-aos="fade-down">Look for NORT on:</h2>
-			<div class="social-sect__grid">
+      <section class="social-sect">
+        <div class="container">
+          <div data-aos="zoom-out"
+          data-aos-duration="500"
+          data-aos-delay="300">
+            <img src="./static/media/social-sect.png" alt="" class="social-sect__img">
+          </div>
+  
+          
+          <div class="social-sect__grid">
 
-				<div class="main_right_link"  >
-					<a href="https://t.me" target="_blank" class="social-sect__item img-box _tg" data-aos="zoom-in">
-						<svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
-		<path
-			d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
-			fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
-		<path
-			d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
-	</svg>
-						<img src="./static/media/telegram.svg" alt class="rotate_img">
-					</a>
-				</div>
+            <div class="main_right_link" data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="300" >
+              <a href="https://t.me" target="_blank" class="social-sect__item img-box _tg" data-aos="zoom-in">
+                <svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
+        <path
+          d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
+          fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
+        <path
+          d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
+      </svg>
+                <img src="./static/media/telegram.svg" alt class="rotate_img">
+              </a>
+            </div>
 
-				<div class="main_right_link"  >
-					<a href="https://x.com" target="_blank" class="social-sect__item img-box _x" data-aos="zoom-in">
-						<svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
-		<path
-			d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
-			fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
-		<path
-			d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
-        	</svg>
-						<img src="./static/media/x.svg" alt class="rotate_img">
-					</a>
-				</div>
+            <div class="main_right_link" data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="400" >
+              <a href="https://x.com" target="_blank" class="social-sect__item img-box _x" data-aos="zoom-in">
+                <svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
+        <path
+          d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
+          fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
+        <path
+          d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
+              </svg>
+                <img src="./static/media/x.svg" alt class="rotate_img">
+              </a>
+            </div>
 
-				<div class="main_right_link"  >
-					<a href="https://www.dextools.io/app" target="_blank" class="social-sect__item img-box _ps" data-aos="zoom-in">
-						<svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
-		<path
-			d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
-			fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
-		<path
-			d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
-	</svg>
-						<img src="./static/media/dex.svg" alt class="_big rotate_img">
-					</a>
-				</div>
+            <div class="main_right_link" data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="500" >
+              <a href="https://www.dextools.io/app" target="_blank" class="social-sect__item img-box _ps" data-aos="zoom-in">
+                <svg class="social-sect__svg" xmlns="http://www.w3.org/2000/svg" width="0" height="0" viewBox="0 0 242 242">
+        <path
+          d="m109.8,3.47c6.75-4.63,15.65-4.63,22.41,0h0c4.82,3.31,10.85,4.31,16.48,2.76h0c7.89-2.18,16.3.72,21.19,7.3h0c3.49,4.7,8.86,7.61,14.69,7.97h0c8.17.51,15.19,5.99,17.68,13.8h0c1.78,5.58,5.92,10.09,11.31,12.33h0c7.56,3.14,12.43,10.61,12.25,18.81h0c-.12,5.86,2.33,11.47,6.71,15.34h0c6.14,5.43,8.32,14.08,5.5,21.78h0c-2.01,5.5-1.51,11.61,1.38,16.7h0c4.05,7.13,3.31,16.02-1.85,22.39h0c-3.68,4.55-5.18,10.49-4.1,16.24h0c1.52,8.06-2.06,16.23-9,20.58h0c-4.96,3.1-8.3,8.23-9.14,14.03h0c-1.18,8.12-7.2,14.68-15.17,16.53h0c-5.69,1.32-10.51,5.08-13.18,10.29h0c-3.74,7.3-11.57,11.54-19.7,10.69h0c-5.81-.61-11.59,1.38-15.8,5.44h0c-5.9,5.68-14.68,7.15-22.1,3.7h0c-5.3-2.47-11.41-2.47-16.71,0h0c-7.42,3.45-16.2,1.98-22.1-3.7h0c-4.21-4.06-9.99-6.05-15.8-5.44h0c-8.14.85-15.96-3.4-19.7-10.69h0c-2.67-5.21-7.49-8.97-13.18-10.29h0c-7.97-1.85-14-8.41-15.17-16.53h0c-.84-5.8-4.18-10.93-9.14-14.03h0c-6.94-4.34-10.52-12.51-9-20.58h0c1.08-5.76-.42-11.7-4.1-16.24h0c-5.16-6.37-5.89-15.26-1.85-22.39h0c2.89-5.09,3.39-11.2,1.38-16.7h0c-2.82-7.7-.63-16.35,5.5-21.78h0c4.38-3.88,6.83-9.49,6.71-15.34h0c-.17-8.2,4.69-15.67,12.25-18.81h0c5.4-2.24,9.54-6.75,11.31-12.33h0c2.49-7.82,9.51-13.3,17.68-13.8h0c5.83-.36,11.2-3.28,14.69-7.97h0c4.89-6.58,13.3-9.48,21.19-7.3h0c5.63,1.56,11.66.55,16.48-2.76h0Z"
+          fill="#0B5600" stroke-width="0" class="social-sect__svg-back" />
+        <path
+          d="m234.3,123.17c2.88,5.06,2.36,11.25-1.3,15.77-4.78,5.9-6.72,13.58-5.31,21.05,1.07,5.72-1.42,11.41-6.34,14.49-6.43,4.02-10.75,10.65-11.84,18.17-.83,5.76-5.03,10.33-10.69,11.64-7.38,1.71-13.62,6.57-17.08,13.33-2.66,5.19-8.11,8.14-13.88,7.53-7.54-.79-15,1.78-20.46,7.05-4.2,4.04-10.3,5.06-15.57,2.61-6.88-3.19-14.77-3.19-21.64,0-5.27,2.45-11.37,1.43-15.57-2.61-4.81-4.64-11.18-7.19-17.79-7.19-.88,0-1.78.05-2.67.14-5.78.61-11.22-2.35-13.88-7.53-3.46-6.76-9.7-11.61-17.08-13.33-5.66-1.31-9.85-5.88-10.69-11.64-1.09-7.52-5.41-14.15-11.84-18.17-4.92-3.09-7.41-8.77-6.34-14.49,1.41-7.47-.53-15.15-5.31-21.05-3.66-4.52-4.18-10.71-1.3-15.77,3.74-6.61,4.4-14.5,1.79-21.64-2-5.46-.49-11.49,3.87-15.34,5.69-5.04,8.85-12.28,8.69-19.89-.12-5.82,3.27-11.02,8.63-13.25,7.01-2.91,12.35-8.73,14.66-15.97,1.77-5.54,6.66-9.36,12.45-9.71,7.57-.47,14.51-4.24,19.03-10.33,3.47-4.68,9.33-6.69,14.93-5.15,7.31,2.02,15.09.72,21.35-3.57,4.79-3.28,11-3.28,15.79,0,6.25,4.29,14.03,5.59,21.35,3.57,5.6-1.54,11.45.47,14.93,5.15,4.53,6.09,11.47,9.86,19.03,10.33,5.8.36,10.69,4.17,12.45,9.71,2.31,7.25,7.65,13.07,14.66,15.97,5.37,2.23,8.75,7.42,8.63,13.25-.16,7.6,3.01,14.85,8.69,19.89,4.36,3.85,5.88,9.87,3.87,15.34-2.61,7.14-1.96,15.03,1.79,21.64Z" stroke-width="0" class="social-sect__svg-box" />
+      </svg>
+                <img src="./static/media/dex.svg" alt class="_big rotate_img">
+              </a>
+            </div>
 
-			</div>
-		</div>
-	</section>
+          </div>
+
+        </div>
+      </section>
 
       <footer class="footer spaceless global_padding">
         <div class="info">
@@ -539,6 +557,8 @@
       </footer>
     </main>
 
+        <!-- aos js library animation -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="./static/js/index.js"></script>
   </body>
 </html>
