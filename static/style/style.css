@@ -1456,6 +1456,9 @@ body::before {
 
 .hero_content{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .link_btn {
@@ -1932,8 +1935,9 @@ body::before {
   }
 
   .hero_img {
-    width: 90%;
-    margin: 0 auto 2rem;
+    width: 100%;
+    padding-right: 5%;
+    margin: 0 auto 0rem;
   }
 
   .box-list {

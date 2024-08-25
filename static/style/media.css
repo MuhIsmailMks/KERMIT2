@@ -152,6 +152,14 @@
         width: 65px;
     }
 
+    #hero .photo{
+      width: 70%;
+    }
+
+    .hero_content{
+      width: 100%;
+    }
+    
   .how-buy {
     margin: 0px 0;
   }
