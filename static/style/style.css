@@ -1968,9 +1968,9 @@ body::before {
  
 
   .hero_img_char {
-    width: 80% !important;
-    bottom: -30px !important;
-    left: 10%;
+    width: 74% !important;
+    bottom: -10% !important;
+    left: 12%;
   }
 
   .tokenomics {
