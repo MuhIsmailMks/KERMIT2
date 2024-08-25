@@ -1734,8 +1734,8 @@ body::before {
   }
 
   .tokenomics__item {
-    width: 55%;
-    min-width: 200px;
+    width: 45%;
+    min-width: 140px;
   }
 
   #contract {
