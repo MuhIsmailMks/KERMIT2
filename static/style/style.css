@@ -1026,8 +1026,9 @@ body::before {
 }
 
 .about_hero {
-  font-size: 2.2rem;
+  font-size: 3.1rem;
   line-height: 1;
+  text-align: center;
 }
 
 #hero .photo:hover {
