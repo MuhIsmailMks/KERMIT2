@@ -2162,7 +2162,8 @@ body::before{
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
-    font: 400 144px/1 "FKScreamerLegacy-Upright", sans-serif;
+    font: 400 144px/1  sans-serif;
+    font-family:"Midorima", cursive;
   }
   .how-buy__item-content {
     display: -webkit-box;
