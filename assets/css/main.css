@@ -713,6 +713,10 @@ img {
   background-color: rgba(0, 0, 0, 0.103);
 }
 
+.buyToken{
+  background: linear-gradient(231.99deg, #FAF460 -12.47%, #fffca6 119.9%);
+}
+
 .btnToken1{
   background: linear-gradient(231.99deg, #FF8F3E -12.47%, #fca766 119.9%);
 }
