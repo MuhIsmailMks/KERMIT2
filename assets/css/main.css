@@ -558,6 +558,7 @@ img {
 .about_us_head{
   color: #ffffff;
   font-size: 5rem;
+  text-align: left;
 }
 .about_us_head span{
   color: #202020;
