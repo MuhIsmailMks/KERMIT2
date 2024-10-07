@@ -16,10 +16,7 @@
   }
   .tokenomics__head {
     font-size: 10vw;
-  }
-  .bann__btn {
-    bottom: 2vw;
-  }
+  } 
   .bann__btn img {
     max-height: 10vw;
   } 
@@ -47,6 +44,11 @@
     position:relative;
     left:auto;
     transform: none;
+  }
+
+  
+  .bann__btn{
+    bottom: -10%;
   }
 }
 
@@ -114,6 +116,21 @@
     max-width: 35%;
     max-height: 35%;
   }
+
+  .bann__btn{
+    bottom: 0;
+  }
+
+  .link_btn{
+    height: 50px;
+    width: 80%;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 @media (max-width: 575px) {
   #page {
@@ -152,10 +169,7 @@
 
     object-fit:cover;
     height:200px;
-  }
-  .bann__btn{
-    bottom:30px;
-  }
+  } 
   .bann__btn img {
     max-height: 50px;
   }
