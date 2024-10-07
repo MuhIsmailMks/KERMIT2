@@ -141,8 +141,8 @@
     gap: 10px 15px;
   }
   .bann{
-    height:120vw;
-    min-height:350px;
+    /* height:120vw; */
+    /* min-height:350px; */
   }
   .bann__wrap {
     padding-top: 25px;
@@ -163,13 +163,9 @@
   .bann__head span{
     width:100px;
   }
-  .bann__img{
-    margin:0;
-    position:absolute;
-    bottom:0;
-
-    object-fit:cover;
-    height:200px;
+  .bann__img{ 
+    position: relative;
+ margin: 0;
   } 
   .bann__btn img {
     max-height: 50px;
