@@ -179,6 +179,10 @@
     padding-top:1.5rem;
   }
 
+  .social-sect__head { 
+    font-size: 1.5rem;
+  }
+
   .link_btn { 
     border-radius: 5px; 
     font-size: 1.5rem; 

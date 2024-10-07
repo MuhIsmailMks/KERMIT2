@@ -382,6 +382,7 @@ img {
 }
 .social-sect__head {
   margin-bottom: 20px;
+  font-size: 3rem;
 }
 .social-sect__grid {
   display: -webkit-box;
