@@ -1,7 +1,7 @@
 // // Animate 
 AOS.init({
 	once: true,
-  });
+});
 
 // function getDelayAnimate(wrap, itemsClass) {
 // 	Array.prototype.forEach.call(wrap, function (wrap) {
@@ -70,3 +70,39 @@ $('.marquee-lines').each(function () {
 		marqueeLinesChange(el);
 	});
 });
+
+
+
+const btnsCopy = document.querySelectorAll('.copy_btns');  
+        const btn = document.querySelector('.copy_btn');  
+        const text = document.querySelector('.contract_address');  
+
+        
+        const contractText = text.innerText;
+        let timeout;
+
+        btnsCopy.forEach(copyBtn => {
+            const btn = copyBtn.querySelector('.copy_btn');  
+            const text = copyBtn.querySelector('.contract_address');  
+
+            
+            const contractText = text.innerText;
+            let timeout;
+
+            btn.addEventListener('click', function () { 
+                navigator.clipboard.writeText('000000000000000000000000000DEAD').then(function() { 
+                    text.innerText = 'Copied';
+            
+                    clearTimeout(timeout);
+                    timeout = setTimeout(function () {
+                        text.innerText = contractText;
+                    },1000);
+                }).catch(function(err) {
+                    console.error('not copied in keyboard ', err);
+                });
+            });
+        })
+        
+        
+       
+
