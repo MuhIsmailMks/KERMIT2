@@ -379,6 +379,10 @@ img {
   padding: 45px 0 37%;
   background: url("../img/social-sect.png") no-repeat 50% 100%/100% auto;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .social-sect__head {
   margin-bottom: 20px;
