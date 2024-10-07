@@ -64,8 +64,8 @@
     width: 160px;
     font-size: 22px;
   }
-  .bann__img{
-    margin:30% 0;
+  .bann__img{ 
+    margin: 0;
   }
   .bann__ava img {
     width: 80px;
@@ -168,7 +168,6 @@
   }
   .bann__img{ 
     position: relative;
- margin: 0;
   } 
   .bann__btn img {
     max-height: 50px;
