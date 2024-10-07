@@ -154,7 +154,8 @@
     font-size: 8vw;
   }
   .bann__head {
-    font-size: 19vw; 
+    font-size: 13vw; 
+    padding: 0 1rem;
   } 
   .bann__head .floating_animation{
     width:auto;
