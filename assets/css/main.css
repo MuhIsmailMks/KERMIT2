@@ -713,6 +713,18 @@ img {
   background-color: rgba(0, 0, 0, 0.103);
 }
 
-.email{
+.btnToken1{
+  background: linear-gradient(231.99deg, #FF8F3E -12.47%, #fca766 119.9%);
+}
 
+.btnToken2{
+  background: linear-gradient(231.99deg, #FAF460 -12.47%, #fff769 119.9%);
+}
+
+.btnToken3{
+  background: linear-gradient(231.99deg, #68D0FF -12.47%, #387eda 119.9%);
+}
+
+.btnToken4{
+  background: linear-gradient(231.99deg, #d84487 -12.47%, #fa9ec7 119.9%);
 }
