@@ -15,7 +15,9 @@
 }
 
 :root{
-  --primariClr:#9ac923; 
+  --primariClr:#6884fe; 
+  /* --primariClr:#9ac923;  */
+  /* --secopn:#206606;  */
 }
 
 *, :before, :after {
