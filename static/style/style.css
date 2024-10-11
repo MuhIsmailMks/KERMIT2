@@ -1637,11 +1637,11 @@ body::before {
 
 .logo_text {
   font-size: 60px;
-  line-height: 1;
-  color: var(--primary);
-  text-shadow: -1px 2px 0 black;
+  line-height: 1;  
+  text-shadow: -1px 2px 0 var(--shadow-primary);
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-color: var(--primary); */
+  color: #74AE3B;
 }
 
 .logo_container img {
@@ -2374,9 +2374,9 @@ body::before {
 .hero_img_char {
   position: absolute;
   z-index: 10;
-  bottom: 20%;
+  bottom: 16%;
 
-  width: 25% ; 
+  width: 35% ; 
 }
 
 .cirlce_img_hero {
