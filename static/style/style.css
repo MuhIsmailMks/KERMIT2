@@ -667,7 +667,7 @@ body::before {
   text-shadow: -1px 0px 0 var(--shadow-primary);
   font-size: 6.5rem;
   color: #74AE3B;
-  font-family: "objective", cursive;
+  /* font-family: "objective", cursive; */
 }
 
 .global_padding {
