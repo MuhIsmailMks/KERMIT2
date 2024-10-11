@@ -11,6 +11,26 @@
   
 }
 
+@media screen and (min-width: 1700px) {
+  
+  .howItem1 .how-buy__item-content{
+    padding: 2rem 5rem;
+  }
+  .howItem2 .how-buy__item-content{
+    padding: 2rem 5rem;
+  }
+
+  .howItem3 .how-buy__item-content{
+    padding: 3rem 5rem;
+  }
+
+  .howItem4 .how-buy__item-content span{
+    padding-top: 1rem;
+  }
+  .howItem4 .how-buy__item-content p{
+    padding: 0 2rem;
+  } 
+}
 @media screen and (min-width: 1200px) {
   .hero_content {
     padding: 0 0 0 1rem !important;
