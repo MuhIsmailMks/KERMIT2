@@ -2860,3 +2860,11 @@ footer{
 .plMedium{
   padding-left: 3rem;
 }
+
+
+.aboutText{
+  /* -webkit-text-stroke: .2px green; */
+  /* text-shadow: 0 0px 2px white; */ 
+  font-weight: 100;
+  letter-spacing: .1px;
+}
