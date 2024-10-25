@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primaryClr:#ca9d7c;
+}
+
+@font-face {
+  font-family: "font1";
+  src: url("../fonts/font1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "font2";
+  src: url("../fonts/font2.woff2") format("truetype");
+}
+
+body {
+  font-family: "font2", sans-serif;
+}
+
+.font1{
+  font-family: "font1", sans-serif;
+}
+
+.londrinaFont {
+  font-family: "Londrina Solid", sans-serif; 
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #76d1ff;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonStyling{
+  background-color: white;
+  box-shadow: 0 4px 2px black;
+  border: 1px solid black;
+  transition: .2s ease-in;
+  -webkit-transition: .2s ease-in;
+  -moz-transition: .2s ease-in;
+  -ms-transition: .2s ease-in;
+  -o-transition: .2s ease-in;
+  font-size: 2vw;
+  padding: .5vw 1vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  min-width: 250px;
+  text-align: center;
+}
+
+.buttonStyling:hover{
+  color: #00eeff;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+section{
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.thinShadow{
+  text-shadow: 0 .1vw  black;
+}
+
+.mediumShadow{
+  text-shadow: 0 .2vw  black;
+}
+
+.boldShadow{
+  text-shadow: 0 .4vw  black;
+}
+
+.mediumBoxShadow{
+  box-shadow: 0 .5vw black;
+}
+
+.howTo{
+  transition: .2s ease;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -ms-transition: .2s ease;
+  -o-transition: .2s ease;
+}
+
+.howTo:hover{
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+
+@media screen and (max-width:768px) {
+  .buttonStyling{
+    width: 45%;
+    min-width: 100px;
+    font-size: .9rem;
+    text-align: center;
+    padding: .8rem 0;
+  }
+}

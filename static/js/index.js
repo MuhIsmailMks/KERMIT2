@@ -1,58 +1,26 @@
-
-window.addEventListener("DOMContentLoaded", () => {
-    AOS.init({
-        once: true
-    });
-})
-
-// menu 
-const menu_btn = document.querySelector('.menu_btn');
-const links = document.querySelector('.links');
-
-menu_btn.addEventListener('click', () => {
-    menu_btn.classList.toggle('active')
-    links.classList.toggle('active')
-})
+//  scroll animation Effect
+AOS.init({
+    once: true
+});
  
- // copy address
-    const copy_address = document.querySelectorAll(".copy_address");
-    const copybtn = document.querySelector(".contractCopy");
+
+// copy address
+const copyAddress = document.querySelector('.copy-box');
     
-     copybtn.addEventListener("click", function() { 
-        let textSpan = copybtn.querySelector('span');
-        let intervalId;
-            let addressText = `00000000000000000000000000000000000000000DEAD`
-            textSpan.innerHTML = 'COPY';
+let text = document.querySelector('.copy-box__text'); 
+let btnText = text.textContent;
+let timeout;
 
-            if (intervalId) {  
-                clearInterval(intervalId);
-            }
+copyAddress.addEventListener('click', () => { 
+    navigator.clipboard.writeText(text.textContent).then(function () {
+        text.textContent = 'Copied';
 
-            intervalId = setInterval(() => {
-                textSpan.innerHTML = '00000000000000000000000000000000000000000DEAD'; 
-                // textSpan.innerHTML = ''; 
-                clearInterval(intervalId);  
-            }, 1000);
-
-            navigator.clipboard.writeText(addressText);
-        }); 
-        
-      copy_address.forEach(copy => {
-        copy.addEventListener("click", function() {   
-            let message = copy.querySelector('.message');
-            let intervalId;
-                let addressText = `00000000000000000000000000000000000000000DEAD`
-                message.classList.add('active')
-                if (intervalId) {  
-                    clearInterval(intervalId);
-                }
+        clearTimeout(timeout);
+        timeout = setTimeout(function () {
+            text.textContent = textText;
+        }, 2000);
+    }).catch(function (err) {
+        console.error('Failed to copy text: ', err);
+    });
     
-                intervalId = setInterval(() => {
-                    message.classList.remove('active')
-                    clearInterval(intervalId);  
-                }, 1000);
-    
-                navigator.clipboard.writeText(addressText);
-            }); 
-      })
-
+})
