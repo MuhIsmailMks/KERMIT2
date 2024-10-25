@@ -1,7 +1,9 @@
 //  scroll animation Effect
-AOS.init({
-    once: true
-});
+window.addEventListener("DOMContentLoaded", () => {
+    AOS.init({
+        once: true
+    });
+})
  
 
 // copy address
