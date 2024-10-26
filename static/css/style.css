@@ -407,3 +407,44 @@ section{
     opacity: 0.4;
   }
 }
+
+
+
+.walk_animation{
+  animation: walk_animation 12s linear infinite;
+  -webkit-animation: walk_animation 12s linear infinite;
+}
+
+@keyframes walk_animation {
+  0% {
+    left: 50px;
+    transform: translateY(0%) scaleX(-1);
+    -webkit-transform: translateY(0%) scaleX(-1);
+    -moz-transform: translateY(0%) scaleX(-1);
+    -ms-transform: translateY(0%) scaleX(-1);
+    -o-transform: translateY(0%) scaleX(-1);
+}
+  50% {
+    left: calc(70% - 0px);
+    transform: translateY(0%) scaleX(-1);
+    -webkit-transform: translateY(0%) scaleX(-1);
+    -moz-transform: translateY(0%) scaleX(-1);
+    -ms-transform: translateY(0%) scaleX(-1);
+    -o-transform: translateY(0%) scaleX(-1);
+}
+  50.01% {
+    transform: translateY(0%) scaleX(1);
+    -webkit-transform: translateY(0%) scaleX(1);
+    -moz-transform: translateY(0%) scaleX(1);
+    -ms-transform: translateY(0%) scaleX(1);
+    -o-transform: translateY(0%) scaleX(1);
+}
+  100% {
+    left: 0px;
+    transform: translateY(0%) scaleX(1);
+    -webkit-transform: translateY(0%) scaleX(1);
+    -moz-transform: translateY(0%) scaleX(1);
+    -ms-transform: translateY(0%) scaleX(1);
+    -o-transform: translateY(0%) scaleX(1);
+}
+}
