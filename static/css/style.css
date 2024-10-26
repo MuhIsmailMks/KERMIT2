@@ -156,6 +156,7 @@ section{
   }
 
   body::before{
+    background-image: url('../images/backgroundMobile.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
