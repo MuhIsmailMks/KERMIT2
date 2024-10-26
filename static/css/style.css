@@ -208,3 +208,35 @@ section{
       -o-transform: scale(1.05);
     }
   }
+
+
+
+/* social animation */
+.twitterLogo path{
+    animation: twitter .3s  infinite;
+    -webkit-animation: twitter .3s  infinite;
+}
+
+@keyframes twitter {
+  0%,50%{
+    fill: #55ACEE;
+  }
+  100%{
+    fill: #1b5079;
+  }
+}
+
+.telegramLogo path{
+    animation: telegram .3s  infinite;
+    -webkit-animation: telegram .3s  infinite;
+    animation-delay: -.15s;
+}
+
+@keyframes telegram {
+  0%,50%{
+    fill: #2AABEE;
+  }
+  100%{
+    fill: #1b668f;
+  }
+}
