@@ -119,6 +119,10 @@ html {
   -o-transition: border-radius 0s ease;
 }
 
+.navbar nav.active .logoImage{
+  opacity: 0;
+}
+
 .menuContainer{
   margin-top: -1rem;
   transition: .3s;
