@@ -425,7 +425,7 @@ section{
     -o-transform: translateY(0%) scaleX(-1);
 }
   50% {
-    left: calc(70% - 0px);
+    left: calc(50% - 0px);
     transform: translateY(0%) scaleX(-1);
     -webkit-transform: translateY(0%) scaleX(-1);
     -moz-transform: translateY(0%) scaleX(-1);
