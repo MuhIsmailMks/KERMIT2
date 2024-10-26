@@ -253,6 +253,84 @@ section{
   -o-transform: rotate(0deg);
 }
 
+/* hero */
+
+/* hero */
+/* .hero_link_animation{
+  animation: bounce 2s ease infinite;
+}
+.hero_link_animation:hover{
+  animation-play-state: paused;
+} */
+
+.hero_link_animation:hover img{
+  transform: scale(1.1) translateY(-10px);
+  -webkit-transform: scale(1.1) translateY(-10px);
+  -moz-transform: scale(1.1) translateY(-10px);
+  -ms-transform: scale(1.1) translateY(-10px);
+  -o-transform: scale(1.1) translateY(-10px);
+}
+
+.hero_link_animation .alert .speech{
+  align-items: center;
+  background-image: url('../images/speechcloud.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  padding: 30px 45px;
+  position: relative; 
+
+  transition: .2s;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.hero_link_animation .speech::before{
+  content: "";
+  position: absolute; 
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url('../images/speechcloud.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  top: -10px;
+  right: -20px
+}
+
+.hero_link_animation.chart .speech::before{
+  right: -20px;
+}
+ 
+  .hero_link_animation.buy .speech::before{
+    left: -20px;
+  } 
+
+  .hero_link_animation .alert .speech{
+    /* z-index: -9999;  */
+  }
+
+.hero_link_animation:hover .alert .speech{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+
+  z-index: 999;
+}
+
+
 
 @media screen and (max-width:768px) {
   .buttonStyling{
