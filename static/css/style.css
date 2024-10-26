@@ -216,6 +216,7 @@ section{
   height: auto;
 }
 
+.buy,
 .thinShadow{
   text-shadow: 0 .1vw  black;
 }
@@ -268,38 +269,48 @@ section{
     background-size: cover;
   }
 
-  
+  .menu-button span {
+    width: 50%;
+    height: 3px; 
+  }
+
   .menu-button span:nth-child(1) {
-    top: .7rem;
+    top: 1rem;
   }
 
   .menu-button span:nth-child(3) {
-    bottom: .7rem;
+    bottom: 1rem;
   }
 
   
   .menu-button.active span:nth-child(1) { 
-    top: 1.1rem;
+    top: 1.6rem;
   }
   
 
   .menu-button.active span:nth-child(3) { 
-    bottom: 1.3rem;
+    bottom: 1.4rem;
   }
 
   .menuContainer{
-    background-color: transparent;
-    z-index: -1;
+    opacity: 0;
+    z-index: -1; 
   }
   .menuContainer.active{
+    opacity: 1;
     height: 490px; 
     z-index: 1;
+    padding-top: 2rem;
   }
 
   .socialNavIcon path{
     fill: white;
   }
 
+
+  .buy{
+    box-shadow: 0 .4vw  black;
+  }
 
 }
 
