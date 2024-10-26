@@ -411,13 +411,13 @@ section{
 
 
 .walk_animation{
-  animation: walk_animation 12s linear infinite;
-  -webkit-animation: walk_animation 12s linear infinite;
+  animation: walk_animation 10s linear infinite;
+  -webkit-animation: walk_animation 10s linear infinite;
 }
 
 @keyframes walk_animation {
   0% {
-    left: 50px;
+    left: 0px;
     transform: translateY(0%) scaleX(-1);
     -webkit-transform: translateY(0%) scaleX(-1);
     -moz-transform: translateY(0%) scaleX(-1);
