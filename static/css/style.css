@@ -359,7 +359,11 @@ section{
   -o-transform: scale(1.1);
 }
 
+ 
+.tokenContainer{
+  background: linear-gradient(180deg, #A38CD2 0%, #EDB9E7 100%);
 
+}
 
 @media screen and (max-width:768px) {
   .buttonStyling{
