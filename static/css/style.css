@@ -15,14 +15,24 @@ html{
 @font-face {
   font-family: "font1";
   src: url("../fonts/font1.ttf") format("truetype");
+  /* src: url("../fonts/font1.ttf") format("truetype"); */
 }
 
 @font-face {
   font-family: "font2";
-  src: url("../fonts/font2.woff2") format("truetype");
+  src: url("../fonts/Hartsinger.ttf") format("truetype");
+  /* src: url("../fonts/font2.woff2") format("truetype"); */
 }
 
 body {
+  font-family: "font2", sans-serif;
+}
+
+.otherFont{
+  font-family: "font1", sans-serif;
+}
+
+.font2{
   font-family: "font2", sans-serif;
 }
 
@@ -40,11 +50,7 @@ body::before{
   background-size: cover;
   background-repeat: repeat;
 }
-
-.font1{
-  font-family: "font1", sans-serif;
-}
-
+ 
 .londrinaFont {
   font-family: "Londrina Solid", sans-serif; 
 }
@@ -369,7 +375,7 @@ section{
   .buttonStyling{
     width: 45%;
     min-width: 100px;
-    font-size: .9rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: .8rem 0;
   }
@@ -417,6 +423,14 @@ section{
     box-shadow: 0 .4vw  black;
   }
 
+  .thinStroke{
+    -webkit-text-stroke: .3vw black;
+  }
+  
+  .mediumStroke{
+    -webkit-text-stroke: .2vw black;
+  }
+  
 }
 
 
