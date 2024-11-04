@@ -69,4 +69,4 @@ function startWeb(){
     heroImg.classList.add('active')
 }
 
-setTimeout(startWeb, 20);
+setTimeout(startWeb, 2000);
