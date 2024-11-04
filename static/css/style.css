@@ -19,23 +19,15 @@ html{
 }
 
 @font-face {
-  font-family: "font2";
-  src: url("../fonts/Hartsinger.ttf") format("truetype");
-  /* src: url("../fonts/font2.woff2") format("truetype"); */
+  font-family: "ComicSansMS3";
+  src: url("../fonts/ComicSansMS3.ttf") format("truetype"); 
 }
 
 body {
-  /* font-family: "font2", sans-serif; */
-  font-family: comic sans ms,comic-sans-w01-regular,cursive;
+  font-family: "ComicSansMS3", sans-serif; 
 }
-
-.otherFont{
-  font-family: "font1", sans-serif;
-}
-
-.font2{
-  font-family: "font2", sans-serif;
-}
+ 
+ 
 
 body::before{
   content: "";
