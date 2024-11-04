@@ -14,8 +14,7 @@ html{
 
 @font-face {
   font-family: "font1";
-  src: url("../fonts/font1.ttf") format("truetype");
-  /* src: url("../fonts/font1.ttf") format("truetype"); */
+  src: url("../fonts/font1.ttf") format("truetype"); 
 }
 
 @font-face {
@@ -439,7 +438,7 @@ section{
   }
 
   .thinStroke{
-    -webkit-text-stroke: .3vw black;
+    -webkit-text-stroke: .2vw black;
   }
   
   .mediumStroke{
