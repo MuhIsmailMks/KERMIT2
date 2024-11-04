@@ -1,0 +1,18 @@
+.arrowAnimation2{
+    animation: arrowAnimation 8s ease-out infinite;
+    -webkit-animation: arrowAnimation 8s ease-out infinite;
+}
+
+@keyframes arrowAnimation {
+    0%,100%{
+        top: 100%;
+    }
+    10%,90%{
+        top: 0;
+    }
+}
+ 
+.mainImage2 img{
+    animation: arrowAnimation 4s ease-out infinite;
+    -webkit-animation: arrowAnimation 4s ease-out infinite;
+}

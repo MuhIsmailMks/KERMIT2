@@ -14,19 +14,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- css link -->
     <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/animation.css">
     <title>Generation Z</title>
 </head>
 <body> 
 
    <div class="w-full min-h-[100vh] h-auto max-w-[100%] relative overflow-hidden  ">
 
-     <div class="navbar w-full h-auto fixed top-0 left-0 flex_center mt-[2vw] z-[999]">
+     <div class="navbar w-full h-auto fixed top-0 left-0 flex_center mt-[2vw] z-[9999]">
 
        <nav class="w-[95%] h-auto bg-white border-black border-[.2vw] flex_center  lg:py-[.55vw] max-w-[3000px] flex-wrap duration-400 ease-in  max-md:py-2">
           
         <div class="left w-[50%] flex items-center justify-start pl-[2vw] gap-2">
           <img src="./static/images/logo.jpg" alt="" class="h-[50px]  rounded-full object-contain w-auto border-black border-[1px] lg:hidden">
-            <h2 class="max-[400px]:text-[5vw] text-[32px] md:text-[40px]">ZOOMER</h2>
+            <h2 class="max-[400px]:text-[3vw] text-[22px] md:text-[35px]">ZOOMER</h2>
         </div>
 
         <div class="logoImage absolute h-full w-auto flex_center max-lg:hidden duration-500 max-h-[80px]">
@@ -108,18 +109,65 @@
      </div>
 
      <section class="hero flex_center flex-col pt-[8rem] lg:pt-[10vw] gap-7"> 
-      <div class="w-[90%] lg:w-[50%] flex flex-col justify-center items-center text-white text-[52px] lg:text-[4vw] thinStroke leading-[1]">
+      <div class="w-[90%] lg:w-[50%] flex flex-col justify-center items-center text-white text-[41px] lg:text-[4vw] thinStroke leading-[1]">
         <span class="w-auto text-center">Meet</span>
-        <span class="w-auto text-center my-2 max-[400px]:text-[13vw] text-[63px] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;">Generation Z</span>
+        <span class="w-auto text-center my-2 max-[400px]:text-[13vw] text-[10vw] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;">Generation Z</span>
         <span class="w-auto text-center "> Riding Beast
         </span>
       </div>
 
-       <div class="logo w-[60%] lg:w-[30%] h-auto object-contain" 
+       <div class="logo w-[70%] lg:w-[50%] h-auto object-contain" 
        data-aos="fade-up"
        data-aos-duration="800"
        data-aos-delay="300">
-        <img src="./static/images/Hero.png" alt="" class="w-full h-auto float_animation" >
+
+         <div class="w-full relative rounded-full border-black border-2 p-[2vw] overflow-hidden">
+
+          <!-- main image -->
+          <img src="./static/images/Hero.png" alt="" class="w-full h-auto mb-[-4vw] relative z-10 heroAnimationLogo" >
+
+          <!-- main image 2 -->
+          <div class="mainImage2 absolute bottom-[10%] right-[10%] w-[20%] h-[20%] rotate-[-30deg] flex_center">
+            <img src="./static/images/how1.png" alt="" class="absolute ">
+          </div>
+
+          <!-- arrow --> 
+           <div class="absolute left-[8%] object-cover h-[30%] w-[10%]  bottom-[50%] z-0  overflow-hidden   flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2  ">
+           </div>
+
+           <div class="absolute left-[20%] bottom-[32%] object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .2s;">
+           </div>
+
+           <div class="absolute left-[29%] bottom-[60%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .3s;">
+           </div> 
+           
+           <div class="absolute left-[39%] bottom-[65%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .4s;">
+           </div>  
+           
+           <div class="absolute left-[49%] bottom-[45%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .46s;">
+           </div>  
+
+              
+           <div class="absolute left-[59%] bottom-[35%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .17s;">
+           </div>  
+
+              
+           <div class="absolute left-[69%] bottom-[37%]  object-cover h-[28%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .55s;">
+           </div>   
+              
+           <div class="absolute left-[79%] bottom-[55%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+            <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .6s;">
+           </div>   
+
+         </div>
+
        </div>
 
        <div class="social flex_center gap-4 flex-wrap " 
@@ -194,7 +242,7 @@
         data-aos-delay="400">
          Generation z Is An Original Matt Furie Character From Matt Furie’s 2003 Exclusive “Play Time”, The Comic That Preceded “Boys Club.”Generation z Is  Original Best-Friend and Riding Companion!</p>
 
-          <p class="thinShadow leading-[1] text-[25px] lg:text-[2.5vw] mb-[3vw] md:mb-[2vw]" data-aos="fade-up" 
+          <p class="thinShadow text-[25px] lg:text-[2.5vw] mb-[3vw] md:mb-[2vw]" data-aos="fade-up" 
           data-aos-duration="700"
           data-aos-delay="500">source: </p>
 
@@ -203,7 +251,7 @@
          data-aos="fade-up" 
          data-aos-duration="700"
          data-aos-delay="600">
-          <a href="https://www.kickstarter.com/projects/615106574/save-pepe/posts/1935059" target="_blank" class="buttonStyling text-black font1 text-[25px] lg:text-[1.9vw] max-md:w-auto max-lg:px-4" >[Learn More About BirdMon] </a>
+          <a href="https://www.kickstarter.com/projects/615106574/save-pepe/posts/1935059" target="_blank" class="buttonStyling text-black font1 text-[20px] lg:text-[1.9vw] max-md:w-auto max-lg:px-4" >[Learn More About BirdMon] </a>
          </div>
 
        </div>
@@ -316,9 +364,9 @@
         data-aos-duration="700"
         data-aos-delay="100">
 
-          <h5 class="text-center w-full text-[4vw]">Build on ETH</h5>
+          <h5 class="text-center w-full text-[9vw] lg:text-[4vw]">Build on ETH</h5>
 
-          <div class="image absolute right-[0rem] w-full flex justify-end pr-10 lg:pr-20 top-[9%] lg:top-[28%] translate-y-[-50%] max-lg:pb-14">
+          <div class="image absolute right-[0rem] w-full flex justify-end pr-10 lg:pr-20 top-[12%] lg:top-[28%] translate-y-[-50%] max-lg:pb-14">
             <img src="./static/images/tokenimg.png" alt="token" class="w-[22%] h-auto object-contain border-black border-2">
           </div>
 

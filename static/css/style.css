@@ -25,7 +25,8 @@ html{
 }
 
 body {
-  font-family: "font2", sans-serif;
+  /* font-family: "font2", sans-serif; */
+  font-family: comic sans ms,comic-sans-w01-regular,cursive;
 }
 
 .otherFont{
@@ -375,7 +376,7 @@ section{
   .buttonStyling{
     width: 45%;
     min-width: 100px;
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-align: center;
     padding: .8rem 0;
   }
