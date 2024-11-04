@@ -1,10 +1,4 @@
-/* 
-.heroImg{
-    background-image: url('../images/bgHeroLogo.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; 
-} */
+ 
 
 .heroImg.active .arrowAnimation2{
     animation: arrowAnimation 8s ease-out infinite;
