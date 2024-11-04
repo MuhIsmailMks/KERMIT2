@@ -54,7 +54,7 @@ function fillBar(index) {
   if (index < bars.length) {
     bars[index].style.backgroundColor = '#fff';
     bars[index].style.opacity = 1; 
-    setTimeout(() => fillBar(index + 1), 500); 
+    setTimeout(() => fillBar(index + 1), 300); 
   }
 } 
 
