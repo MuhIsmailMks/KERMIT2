@@ -1,12 +1,4 @@
-//  scroll animation Effect
-window.addEventListener("DOMContentLoaded", () => {
-    AOS.init({
-        once: true
-    });
-})
- 
-
-// copy address
+ // copy address
 const copyAddresses = document.querySelectorAll('.copy-box');
 
 copyAddresses.forEach(copyAddress => {
@@ -21,7 +13,7 @@ copyAddresses.forEach(copyAddress => {
 
                 clearTimeout(timeout);
                 timeout = setTimeout(() => {
-                    text.textContent = btnText; // Kembali ke teks asli
+                    text.textContent = btnText;  
                 }, 2000);
             })
             .catch(err => {
@@ -50,3 +42,28 @@ socialLinks.forEach(socialLink => {
         menuContainer.classList.remove('active')
     })
 })
+
+
+
+// loading
+// Dapatkan elemen bar
+const bars = document.querySelectorAll('.bar');
+const loadContainer = document.querySelector('.loadContainer')
+
+// Fungsi untuk mengisi bar
+function fillBar(index) {
+  if (index < bars.length) {
+    bars[index].style.backgroundColor = '#fff';
+    bars[index].style.opacity = 1; 
+    setTimeout(() => fillBar(index + 1), 500); 
+  }
+}
+
+// Panggil fungsi saat halaman selesai loading
+window.addEventListener('load', () => {
+  fillBar(0);  
+  AOS.init({
+    once: true
+    });
+  loadContainer.classList.add('hidden')
+});

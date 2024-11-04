@@ -16,3 +16,34 @@
     animation: arrowAnimation 4s ease-out infinite;
     -webkit-animation: arrowAnimation 4s ease-out infinite;
 }
+
+/* Container styling */
+.loading-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    gap: 1rem;
+    height: 30px;
+    margin: 0 auto;
+  }
+  
+  /* Bar styling */
+  .bar {
+    width: 50px;
+    height: 10px;
+    background-color: #444; /* Bar yang belum selesai */
+    opacity: 0.3;
+    animation: blink 1s infinite ease-in-out;
+  }
+  
+  /* Animation untuk kedap-kedip */
+  @keyframes blink {
+    0%, 50%, 100% {
+      opacity: 0.3;
+    }
+    25% {
+      opacity: 1;
+    }
+  }
+  

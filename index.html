@@ -19,11 +19,32 @@
 </head>
 <body> 
 
-   <div class="w-full min-h-[100vh] h-auto max-w-[100%] relative overflow-hidden  ">
+  <!-- loading container -->
+   <div class="loadContainer w-full h-full fixed left-0 top-0 bg-black z-[99999] flex_center">
+
+    <div class="containerLoad w-[35%] h-auto   flex_center flex-col gap-[2vw] py-[1.5vw] relative z-[99]">
+      <img src="./static/images/logo.jpg" alt="" class="w-[30%] h-auto object-contain">
+      <p class="text-white text-[2vw]">LOADING...</p>
+      <div class="loading-container">
+        <div class="bar" id="bar1"></div>
+        <div class="bar" id="bar2"></div>
+        <div class="bar" id="bar3"></div>
+        <div class="bar" id="bar4"></div>
+        <div class="bar" id="bar5"></div>
+      </div>
+    </div>
+    
+    
+   </div>
+
+  <!-- container page -->
+   <div class="w-full min-h-[100vh] h-auto max-w-[100%] relative overflow-hidden ">
 
      <div class="navbar w-full h-auto fixed top-0 left-0 flex_center mt-[2vw] z-[9999]">
 
-       <nav class="w-[95%] h-auto bg-white border-black border-[.2vw] flex_center  lg:py-[.55vw] max-w-[3000px] flex-wrap duration-400 ease-in  max-md:py-2">
+       <nav class="w-[95%] h-auto bg-white border-black border-[.2vw] flex_center  lg:py-[.55vw] max-w-[3000px] flex-wrap duration-400 ease-in  max-md:py-2" data-aos="fade-down"
+       data-aos-duration="700"
+       data-aos-delay="100">
           
         <div class="left w-[50%] flex items-center justify-start pl-[2vw] gap-2">
           <img src="./static/images/logo.jpg" alt="" class="h-[50px]  rounded-full object-contain w-auto border-black border-[1px] lg:hidden">
@@ -110,9 +131,15 @@
 
      <section class="hero flex_center flex-col pt-[8rem] lg:pt-[10vw] gap-7"> 
       <div class="w-[90%] lg:w-[50%] flex flex-col justify-center items-center text-white text-[41px] lg:text-[4vw] thinStroke leading-[1]">
-        <span class="w-auto text-center">Meet</span>
-        <span class="w-auto text-center my-2 max-[400px]:text-[13vw] text-[10vw] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;">Generation Z</span>
-        <span class="w-auto text-center "> Riding Beast
+        <span class="w-auto text-center" data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="100">Meet</span>
+        <span class="w-auto text-center my-2 max-[400px]:text-[13vw] text-[10vw] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;" data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="300">Generation Z</span>
+        <span class="w-auto text-center" data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-delay="500"> Riding Beast
         </span>
       </div>
 

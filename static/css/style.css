@@ -29,6 +29,7 @@ body {
  
  
 
+.loadContainer::before,
 body::before{
   content: "";
   position: fixed;
@@ -42,6 +43,17 @@ body::before{
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
+}
+
+.loadContainer::after{
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.329);
 }
  
 .londrinaFont {
@@ -276,15 +288,7 @@ section{
   -o-transform: rotate(0deg);
 }
 
-/* hero */
-
-/* hero */
-/* .hero_link_animation{
-  animation: bounce 2s ease infinite;
-}
-.hero_link_animation:hover{
-  animation-play-state: paused;
-} */
+/* hero */ 
 
 .hero_link_animation:hover img{
   transform: scale(1.1) translateY(-10px);
