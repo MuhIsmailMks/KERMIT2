@@ -47,16 +47,16 @@ body::before{
 
 @keyframes changeBg {
   0%{
-    background-image: url('../images/paper1.jpg');
+    background-image: url('../images/paper1.webp');
   }
   25%{
-    background-image: url('../images/paper2.avif');
+    background-image: url('../images/paper2.webp');
   }
   50%{
-    background-image: url('../images/paper3.jpg');
+    background-image: url('../images/paper3.webp');
   }
   75%{
-    background-image: url('../images/paper4.avif');
+    background-image: url('../images/paper4.webp');
   }
 }
  
