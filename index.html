@@ -144,27 +144,30 @@
 
      <section class="hero flex_center flex-col pt-[8rem] lg:pt-[10vw] gap-7"> 
       <div class="w-[90%] lg:w-[50%] flex flex-col justify-center items-center text-white text-[41px] lg:text-[4vw] thinStroke leading-[1]">
-        <span class="w-auto text-center" data-aos="fade-up"
+        <span class="text-center" data-aos="fade-up"
         data-aos-duration="700"
         data-aos-delay="100">Meet</span>
-        <span class="w-auto text-center my-2 max-[400px]:text-[9vw] text-[10vw] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;" data-aos="fade-up"
+        <span class="text-center my-2 max-[400px]:text-[9vw] text-[10vw] lg:text-[6vw] tracking-widest lg:tracking-[.5vw]" style="color: #000000;" data-aos="fade-up"
         data-aos-duration="700"
         data-aos-delay="300">Generation Z</span>
-        <span class="w-auto text-center" data-aos="fade-up"
+        <span class="text-center" data-aos="fade-up"
         data-aos-duration="700"
         data-aos-delay="500"> Riding Beast
         </span>
       </div>
 
-       <div class="logo w-[70%] lg:w-[50%] h-auto object-contain" 
+       <div class="logo w-full lg:w-auto h-auto object-contain flex_center" 
        data-aos="fade-up"
        data-aos-duration="800"
        data-aos-delay="300">
 
-         <div class="w-full relative rounded-full border-black border-2 p-[2vw] overflow-hidden">
+         <div class="w-[300px]  md:w-[45vw] h-[300px]  md:h-[45vw] relative rounded-full p-[2vw] overflow-hidden heroImg  ">
+
+          <!-- bg -->
+           <img src="./static/images/bgHeroLogo.png" alt="" class="absolute w-full h-full left-0 top-0 object-cover">
 
           <!-- main image -->
-          <img src="./static/images/Hero.png" alt="" class="w-full h-auto mb-[-4vw] relative z-10 heroAnimationLogo" >
+          <img src="./static/images/Hero.png" alt="" class="w-full h-auto left-[0%] mb-[-15vw] absolute z-10 heroAnimationLogo" >
 
           <!-- main image 2 -->
           <div class="mainImage2 absolute bottom-[10%] right-[10%] w-[20%] h-[20%] rotate-[-30deg] flex_center">
@@ -172,7 +175,7 @@
           </div>
 
           <!-- arrow --> 
-           <div class="absolute left-[8%] object-cover h-[30%] w-[10%]  bottom-[50%] z-0  overflow-hidden   flex_center">
+           <div class="absolute left-[6%] object-cover h-[30%] w-[10%]  bottom-[50%] z-0  overflow-hidden   flex_center">
             <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2  ">
            </div>
 
@@ -202,7 +205,7 @@
             <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .55s;">
            </div>   
               
-           <div class="absolute left-[79%] bottom-[55%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
+           <div class="absolute left-[82%] bottom-[50%]  object-cover h-[30%] w-[10%] z-0 overflow-hidden  flex_center">
             <img src="./static/images/arrow.svg" alt="" class="h-full object-contain absolute arrowAnimation2" style="animation-delay: .6s;">
            </div>   
 
@@ -221,7 +224,7 @@
        </div>
 
        <div class="relative flex_center w-[90%] lg:w-[80%] font1 mb-[5vw] mx-auto">
-        <div class="contract w-full lg:w-[70%]   bg-white rounded-full text-[14px] lg:text-[2vw] border-black border-[.15vw] px-5 py-[1vw] mediumBoxShadow copy-box flex_center otherFont" 
+        <div class="contract w-full lg:w-[70%]   rounded-full text-[14px] lg:text-[2vw] px-5 py-[2vw] copy-box flex_center bgContract cursor-pointer" 
         data-aos="fade-left" 
         data-aos-duration="700"
         data-aos-delay="300">
@@ -243,9 +246,11 @@
 
       <div class="flex_center flex-wrap flex-col w-full h-auto object-contain relative mt-[10vw] gap-8 lg:gap-[2vw]">
 
-        <h2 class="text-center thinShadow text-[6vw] lg:text-[4vw] tracking-wider px-4"  data-aos="fade-up" 
+        <div class="flex_center bgContract relative pt-[3vw] py-[5vw] px-[5vw]" data-aos="fade-up" 
         data-aos-duration="700"
-        data-aos-delay="200">join our members zoomer</h2>
+        data-aos-delay="200">
+          <h2 class="text-center relative leading-[1] thinShadow flex_center text-[6vw] lg:text-[4vw] tracking-wider  "  >join our members zoomer</h2>
+        </div>
 
        <div class="w-full lg:w-[50%] h-auto relative hero_link_animation flex_center">
         <img src="./static/images/boysClub.png" alt="" class="w-full lg:w-[80%] h-auto duration-150 cursor-pointer">
@@ -260,10 +265,13 @@
      </section>
  
 
-     <section id="about" class="about">
-       <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center" data-aos="fade-up" 
+     <section id="about" class="about flex items-center flex-col mt-[80px]">
+
+       <div class="bgTitle relative w-auto h-auto py-[40px] lg:py-[4vw] px-[30px] lg:px-[5vw] pt-[3vw] lg:pt-[1vw]" data-aos="fade-up" 
        data-aos-duration="700"
-       data-aos-delay="100">ABOUT</h2>
+       data-aos-delay="100">
+        <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center leading-[1]" >ABOUT</h2>
+       </div>
 
        <div class="contentAbout flex_center relative flex-col">
 
@@ -302,188 +310,154 @@
 
      <div class="memes w-full relative h-auto flex_center flex-col mt-[30px] lg:mt-[100px]">
 
-      <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center max-md:my-[30px]" 
-      data-aos="fade-up" 
+      <!-- title -->
+      <div class="bgTitle relative w-auto h-auto py-[40px] lg:py-[4vw] px-[30px] lg:px-[5vw] pt-[3vw] lg:pt-[1vw]" data-aos="fade-up" 
       data-aos-duration="700"
-      data-aos-delay="300">Memes</h2>
+      data-aos-delay="100">
+       <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center leading-[1]" >MEMES</h2>
+      </div>
 
-      <div class="flex_center w-[80%] gap-2 lg:gap-4 flex-wrap">   
+      <!-- memes -->
+       <div class="w-[100%] lg:w-[80%] h-auto relative flex_center">
 
-          <div class="col border-black border-[.2vw] w-[100%] md:w-[38%] h-auto bg-white">
+        <!-- bg -->
+         <img src="./static/images/memesBg.png" alt="" class="w-full h-auto object-contain relative z-10">
+
+         <!-- video top container -->
+          <div class="w-[90%] top-[21%] absolute flex justify-between items-center h-[22%]  ">
+
+            <div class="w-[50%] h-full relative">
               <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
-                  <source src="./static/video/meme1.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video>
+                <source src="./static/video/meme1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+
+            <div class="w-[50%] h-full relative">
+              <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
+                <source src="./static/video/meme2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+
           </div>
 
-          <div class="col border-black border-[.2vw] w-[100%] md:w-[38%] h-auto bg-white">
-              <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
-                  <source src="./static/video/meme2.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video>
-          </div>
+            <!-- bottom top container -->
+            <div class="w-[90%] bottom-[29%] left-[3%] absolute flex justify-between items-center h-[22%] bg-white ">
 
-          <div class="col border-black border-[.2vw] w-[100%] md:w-[38%] h-auto bg-white">
-              <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
+              <div class="w-[50%] h-full relative  ">
+                <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-full object-cover">
                   <source src="./static/video/meme3.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
-          </div>
-
-          <div class="col border-black border-[.2vw] w-[100%] md:w-[38%] h-auto bg-white">
-              <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
+              </div>
+  
+              <div class="w-[50%] h-full relative">
+                <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
                   <source src="./static/video/meme4.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
-          </div>
+              </div>
+  
+            </div>
 
-          <div class="col border-black border-[.2vw] w-[100%] md:w-[38%] h-auto bg-white">
-              <video autoplay loop muted playsinline style="pointer-events: none;" class="w-full h-auto object-cover">
-                  <source src="./static/video/meme5.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-              </video>
-          </div>
-
-      </div>
+       </div> 
 
    </div>
 
-     <section id="tokenomics" class="tokenomics max-lg:mt-[50px]">
-      <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center  " 
-      data-aos="fade-up" 
+     <section id="tokenomics" class="tokenomics max-lg:mt-[50px] mt-[10vw] flex_center flex-col">
+    
+      <div class="bgTitle relative w-auto h-auto py-[40px] lg:py-[4vw] px-[30px] lg:px-[5vw] pt-[3vw] lg:pt-[1vw]" data-aos="fade-up" 
       data-aos-duration="700"
-      data-aos-delay="300">Tokenomics</h2>
-
-      <div class="supplyContainer flex_center gap-[2vw] font1">
-        
-        <div class="supply py-[.5vw] px-[1.5vw] bg-white border-black border-4 " 
-        data-aos="fade-right"
-        data-aos-duration="700"
-        data-aos-delay="100">
-          <p class="text-black text-[5vw]">1 Billion</p>
-        </div>
-        <p class="  text-[6vw] lg:text-[4vw]" 
-        data-aos="fade-left" 
-        data-aos-duration="700"
-        data-aos-delay="200"> in total supply</p>
+      data-aos-delay="100">
+       <h2 class="mediumStroke text-white text-[12vw] lg:text-[10vw] boldShadow text-center leading-[1]" >Tokenomics</h2>
       </div>
+  
 
-      <div class="token flex_center items-start font1 my-[6vw] lg:my-[3vw]">
-        <div class="liquidity flex_center gap-[2vw]" 
+      <div class="relative flex_center w-[90%] lg:w-[80%] font1 mb-[5vw] mx-auto">
+        <div class="contract w-full lg:w-[70%]   rounded-full text-[14px] lg:text-[2vw] px-5 py-[2vw] copy-box flex_center bgContract cursor-pointer" 
         data-aos="fade-up" 
-        data-aos-duration="700"
-        data-aos-delay="200">
-          <span class="w-[6vw] lg:w-[4vw] h-[6vw] lg:h-[4vw] bg-black"></span>
-          <p class="  text-[5vw] lg:text-[2vw]">100% liquidity</p>
-        </div>
-      </div>
-
-      <div class="relative flex justify-end w-[90%] lg:w-[80%]  mb-[5vw] mx-auto">
-        <div class="contract w-full lg:w-[70%] flex_center bg-white rounded-full text-[18px] lg:text-[2vw] border-black border-[.15vw] px-5 py-[1vw] mediumBoxShadow copy-box " 
-        data-aos="fade-left" 
         data-aos-duration="700"
         data-aos-delay="300">
           <p>CA:</p>
-          <span class="copy-box__text max-w-[80%] text-ellipsis overflow-hidden otherFont">000000000000000000000000000DEAD</span>
-          <img src="./static/images/copyIcon.svg" alt="" class="w-[25px] md:w-[40px] h-auto object-contain ml-[2vw]  cursor-pointer">
+          <span class="copy-box__text max-w-[80%] text-ellipsis overflow-hidden">000000000000000000000000000DEAD</span>
+          <img src="./static/images/copyIcon.svg" alt="" class="w-[25px] md:w-[40px] h-auto object-contain ml-[2vw] cursor-pointer">
         </div>
       </div>
 
-      <div class="aboutToken relative w-[90%] flex_center flex-wrap gap-[2vw] mx-auto">
+      <div class="tokenomics w-full lg:w-[80%] flex_center relative">
 
-        <div class="image min-h-[250px] w-[100%] lg:w-[44%] flex_center   relative"  data-aos="fade-right" 
-        data-aos-duration="700"
-        data-aos-delay="100">
-          <div class="w-[50%] lg:w-[60%] absolute flex_center  walk_animation">
-            <img src="./static/images/token.gif" alt="" class="w-full h-auto float_animation">
-          </div>
-        </div>
+        <img src="./static/images/bgToken.png" alt="" class="relative w-full h-auto object-contain z-10">
 
-        <div class="about relative w-[90%] lg:w-[50%] bg-white border-black border-[.1vw] py-[3vw] lg:py-[1vw] px-6 lg:px-[.75vw]" 
-        data-aos="fade-left" 
-        data-aos-duration="700"
-        data-aos-delay="100">
+        <!-- image token -->
+         <div class="absolute bottom-[0%] left-[2%] w-[60%] h-[80%] flex_center flex-col gap-[8%]">
 
-          <h5 class="text-center w-full text-[9vw] lg:text-[4vw]">Build on ETH</h5>
+          <div class="w-[34%] h-[26%] absolute top-[2%] ">
 
-          <div class="image absolute right-[0rem] w-full flex justify-end pr-10 lg:pr-20 top-[12%] lg:top-[28%] translate-y-[-50%] max-lg:pb-14">
-            <img src="./static/images/tokenimg.png" alt="token" class="w-[22%] h-auto object-contain border-black border-2">
+            <div class="img w-[100%] h-full relative flex_center">
+              <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-cover">
+
+              <img src="./static/images/token3.gif" alt="" class="absolute left-[4%] bottom-[4%] w-[40%] object-contain">
           </div>
 
-          <div class="w-full flex flex-col text-black font1 text-[5vw] lg:text-[2vw] max-lg:mt-4  ">
-            <p>Name:Generation z</p>
-            <p>Symbol: ZOOMER</p>
           </div>
 
-          <div class="w-full relative flex_center flex-wrap lg:gap-[2vw] mt-5 pt-4 max-lg:gap-3 otherFont leading-[1]">
+          <div class="w-[34%] h-[26%] relative  mb-[8%]">
+            <div class="img w-[100%] h-full relative flex_center">
+              <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-cover">
 
-            <div class="tokenContainer h-auto w-[90%] lg:w-[30%] rounded-[20px] lg:rounded-[2vw] flex_center flex-col  gap-[2vw] lg:gap-7 py-4 lg:pt-[.4vw] lg:pb-[1vw]" data-aos="zoom-in"
-            data-aos-duration="700"
-            data-aos-delay="300">
+              <img src="./static/images/token2.gif" alt="" class="absolute left-[4%] bottom-[4%] w-[40%] object-contain">
+          </div>
+          </div>
 
-                <div class="img w-[95%] relative h-auto flex_center bg-[#A38CD2] border-black border-[.2vw] overflow-hidden rounded-[20px] lg:rounded-[2vw]">
-                    <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-contain">
+          <div class="w-[34%] h-[26%] absolute bottom-[6%]">
+            <div class="img w-[100%] h-full relative flex_center">
+              <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-cover">
 
-                    <img src="./static/images/token3.gif" alt="" class="absolute left-0 bottom-0 w-[40%] object-contain">
-                </div>
+              <img src="./static/images/token1.gif" alt="" class="absolute left-0 bottom-0 w-[40%] object-contain">
+          </div>
+          </div>
 
-                <div class="text flex_center flex-col font-bold text-[22px] lg:text-[1.5vw] max-lg:gap-3 gap-4">
-                    <p class="max-lg:text-[25px]">Total Supply</p>
-                    <p>100.000.000</p>
-                </div>
+         </div>
 
+         <!-- about token -->
+          <div class="absolute bottom-[0%] right-[10%] w-[50%] h-[80%] flex justify-between items-center flex-col gap-[8%] z-[20] py-[6%] ">
+
+            <div class="w-[80%] h-[20%] flex_center relative">
+                <div class="text flex  flex-col font-bold text-[22px] lg:text-[2.5vw] max-lg:gap-3 gap-4 pb-[9%] lg:pb-[3%]">
+                  <p class="max-lg:text-[25px]">Total Supply</p>
+                  <p>100.000.000</p>
+              </div>
             </div>
 
-            <div class="tokenContainer h-auto w-[90%] lg:w-[30%] rounded-[20px] lg:rounded-[2vw] flex_center flex-col  gap-[2vw] lg:gap-7 py-4 lg:pt-[.4vw] lg:pb-[1vw]" data-aos="zoom-in"
-            data-aos-duration="700"
-            data-aos-delay="400">
-
-                <div class="img w-[95%] relative h-auto flex_center bg-[#A38CD2] border-black border-[.2vw] overflow-hidden rounded-[20px] lg:rounded-[2vw]">
-                    <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-contain">
-
-                    <img src="./static/images/token2.gif" alt="" class="absolute left-0 bottom-[8%] w-[40%] object-contain">
-                </div>
-
-                <div class="text flex_center flex-col font-bold text-[22px] lg:text-[1.5vw] max-lg:gap-3 gap-4">
-                    <p class="max-lg:text-[25px]">Tax</p>
-                    <p>0%</p>
-                </div>
-
+            <div class="w-[80%] h-[20%] flex_center relative pb-[20%]">
+                <div class="text flex  flex-col font-bold text-[22px] lg:text-[2.5vw] max-lg:gap-3 gap-4 rotate-[-5deg]">
+                  <p class="max-lg:text-[25px]">Tax</p>
+                  <p>0%</p>
+              </div>
             </div>
 
-            <div class="tokenContainer h-auto w-[90%] lg:w-[30%] rounded-[20px] lg:rounded-[2vw] flex_center flex-col  gap-[2vw] lg:gap-7 py-4 lg:pt-[.4vw] lg:pb-[1vw]" data-aos="zoom-in"
-            data-aos-duration="700"
-            data-aos-delay="500">
-
-                <div class="img w-[95%] relative h-auto flex_center bg-[#A38CD2] border-black border-[.2vw] overflow-hidden rounded-[20px] lg:rounded-[2vw]">
-                    <img src="./static/images/logo.jpg" alt="" class="w-full h-auto object-contain">
-
-                    <img src="./static/images/token1.gif" alt="" class="absolute left-0 bottom-0 w-[40%] object-contain">
-                </div>
-
-                <div class="text flex_center flex-col font-bold text-[22px] lg:text-[1.5vw] max-lg:gap-3 gap-4">
-                    <p class="max-lg:text-[25px]">LP Burned</p>
-                    <p>100%</p>
-                </div>
-
+            <div class="w-[80%] h-[20%] flex_center relative  pb-[15%] ">
+                <div class="text flex  flex-col font-bold text-[22px] lg:text-[2.5vw] max-lg:gap-3 gap-4 rotate-[-10deg]">
+                  <p class="max-lg:text-[25px]">LP Burned</p>
+                  <p>100%</p>
+              </div>
             </div>
 
-        </div>
+          </div>
 
-        </div>
-
-       
-
-      </div>
+      </div> 
 
      </section>
 
-     <section id="howtobuy" class="hoToBuy mt-7 lg:mt-[2vw]">
+     <section id="howtobuy" class="hoToBuy mt-7 lg:mt-[2vw] flex_center flex-col">
 
-      <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center mb-7" 
-      data-aos="fade-up"  
+      
+      <div class="bgTitle relative w-auto h-auto py-[40px] lg:py-[4vw] px-[30px] lg:px-[5vw] pt-[3vw] lg:pt-[1vw]" data-aos="fade-up" 
       data-aos-duration="700"
-      data-aos-delay="200">How to buy?</h2>
+      data-aos-delay="100">
+       <h2 class="mediumStroke text-white text-[12vw] lg:text-[10vw] boldShadow text-center leading-[1]" >How to buy</h2>
+      </div>
 
       <div class="howToContainer mx-auto w-[90%] lg:w-[60%] flex_center flex-col">
 
@@ -492,8 +466,8 @@
         data-aos-duration="700"
         data-aos-delay="200">
 
-          <div class="howTo rotate-[7deg] bg-white border-black border-[.2vw] p-[4vw] lg:p-[2vw] w-[90%] lg:w-[60%] mediumBoxShadow rounded-[2vw]">
-            <p class=" text-[18px] lg:text-[1.7vw]">download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.</p>
+          <div class="howTo pt-[10vw] flex_center  lg:pt-[6vw] lg:pb-[5vw] w-[90%] lg:w-[60%] lg:px-[3vw]  rounded-[2vw]">
+            <p class="max-lg:w-[80%] w-[90%] text-[18px] lg:text-[1.7vw] max-lg:pb-12">download metamask or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to metamask.io.</p>
           </div>
 
         </div>
@@ -502,8 +476,8 @@
         data-aos-duration="700"
         data-aos-delay="350">
 
-          <div class="howTo rotate-[-5deg] bg-white border-black border-[.2vw] p-[4vw] lg:p-[2vw] w-[90%] lg:w-[60%] mediumBoxShadow rounded-[2vw]">
-            <p class=" text-[18px] lg:text-[1.7vw]">have ETH in your wallet to switch to ZOOMER.. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
+          <div class="howTo pt-[10vw] flex_center  lg:pt-[6vw] lg:pb-[5vw] w-[90%] lg:w-[60%] lg:px-[3vw]  rounded-[2vw]">
+            <p class="max-lg:w-[80%] w-[90%] text-[18px] lg:text-[1.7vw] max-lg:pb-12">have ETH in your wallet to switch to ZOOMER.. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
           </div>
           
         </div>
@@ -512,8 +486,8 @@
         data-aos-duration="700"
         data-aos-delay="500">
 
-          <div class="howTo rotate-[7deg] bg-white border-black border-[.2vw] p-[4vw] lg:p-[2vw] w-[90%] lg:w-[60%] mediumBoxShadow rounded-[2vw]">
-            <p class=" text-[18px] lg:text-[1.7vw]">
+          <div class="howTo pt-[14vw] flex_center  relative lg:pt-[8vw] lg:pb-[5vw] w-[90%] lg:w-[60%] lg:px-[3vw]  rounded-[2vw]">
+            <p class="max-lg:w-[80%] w-[90%] text-[18px] lg:text-[1.7vw] max-lg:pb-14">
               connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the ZOOMER. token address into Uniswap, select ZOOMER., and confirm. When Metamask prompts you for a wallet signature, sign
             </p>
           </div>
@@ -524,8 +498,8 @@
         data-aos-duration="700"
         data-aos-delay="700">
 
-          <div class="howTo rotate-[-7deg] bg-white border-black border-[.2vw] p-[4vw] lg:p-[2vw] w-[90%] lg:w-[60%] mediumBoxShadow rounded-[2vw]">
-            <p class=" text-[18px] lg:text-[1.7vw]">
+          <div class="howTo pt-[10vw] flex_center  relative lg:pt-[6vw] lg:pb-[5vw] w-[90%] lg:w-[60%] lg:px-[3vw]  rounded-[2vw]">
+            <p class="max-lg:w-[80%] w-[90%] text-[18px] lg:text-[1.7vw] max-lg:pb-12">
               switch ETH for ZOOMER.. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
             </p>
           </div>
@@ -540,12 +514,14 @@
 
      <div class="w-full h-[4px] bg-white relative mt-[8vw]"></div>
 
-     <div id="social" class="social relative pb-5 ">
+     <div id="social" class="social relative pb-5 flex_center flex-col">
 
       
-      <h2 class="mediumStroke text-white text-[16vw] lg:text-[10vw] boldShadow text-center max-lg:mt-5 "  data-aos="fade-up" 
+      <div class="bgTitle relative w-auto h-auto py-[40px] lg:py-[4vw] px-[30px] lg:px-[5vw] pt-[3vw] lg:pt-[1vw]" data-aos="fade-up" 
       data-aos-duration="700"
-      data-aos-delay="200">social</h2>
+      data-aos-delay="100">
+       <h2 class="mediumStroke text-white text-[15vw] lg:text-[10vw] boldShadow text-center leading-[1]" >Social</h2>
+      </div>
 
       <div class="w-full h-auto relative flex_center  ">
         <img src="./static/images/social.gif" alt="" class="w-full h-auto object-contain">

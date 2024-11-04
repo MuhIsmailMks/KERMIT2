@@ -206,17 +206,14 @@ html {
   bottom: 1.5rem;
 }
 
-.buttonStyling{
-  background-color: white;
-  box-shadow: 0 4px 2px black;
-  border: 1px solid black;
+.buttonStyling{ 
   transition: .2s ease-in;
   -webkit-transition: .2s ease-in;
   -moz-transition: .2s ease-in;
   -ms-transition: .2s ease-in;
   -o-transition: .2s ease-in;
   font-size: 2vw;
-  padding: .5vw 1vw;
+  padding: 1vw 2vw;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -225,6 +222,11 @@ html {
 
   min-width: 250px;
   text-align: center;
+
+  background-image: url('../images/bgBtn.png');
+  background-position: center;
+  background-size: 100% 90%;
+  background-repeat: no-repeat; 
 }
 
 .buttonStyling:hover{
@@ -605,4 +607,26 @@ section{
   background-size: cover;
   background-repeat: repeat; 
   background-color: black;
+}
+
+/* background */
+.bgContract{
+  background-image: url('../images/contractBg.png');
+  background-position: center;
+  background-size: 95% 90%;
+  background-repeat: no-repeat;
+}
+
+.bgTitle{
+  background-image: url('../images/bgBtn.png');
+  background-position: center;
+  background-size: 95% 90%;
+  background-repeat: no-repeat;
+}
+
+.howTo{
+  background-image: url('../images/bgHow.png');
+  background-position: center;
+  background-size: 95% 90%;
+  background-repeat: no-repeat;
 }

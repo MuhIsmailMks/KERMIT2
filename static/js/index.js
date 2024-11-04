@@ -48,6 +48,7 @@ socialLinks.forEach(socialLink => {
 // loading 
 const bars = document.querySelectorAll('.bar');
 const loadContainer = document.querySelector('.loadContainer')
+const heroImg = document.querySelector('.heroImg')
 
 // Fungsi untuk mengisi bar
 function fillBar(index) {
@@ -65,6 +66,7 @@ function startWeb(){
       once: true
       });
     loadContainer.classList.add('hidden')
+    heroImg.classList.add('active')
 }
 
 setTimeout(startWeb, 2000);
