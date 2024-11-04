@@ -32,12 +32,11 @@
   .bar {
     width: 50px;
     height: 10px;
-    background-color: #444; /* Bar yang belum selesai */
+    background-color: #444;  
     opacity: 0.3;
     animation: blink 1s infinite ease-in-out;
   }
-  
-  /* Animation untuk kedap-kedip */
+   
   @keyframes blink {
     0%, 50%, 100% {
       opacity: 0.3;
@@ -47,3 +46,9 @@
     }
   }
   
+  @media screen and (max-width:768px) {
+    .bar {
+        width: 30px;
+        height: 6px; 
+      }
+  }

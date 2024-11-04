@@ -45,8 +45,7 @@ socialLinks.forEach(socialLink => {
 
 
 
-// loading
-// Dapatkan elemen bar
+// loading 
 const bars = document.querySelectorAll('.bar');
 const loadContainer = document.querySelector('.loadContainer')
 
@@ -57,13 +56,15 @@ function fillBar(index) {
     bars[index].style.opacity = 1; 
     setTimeout(() => fillBar(index + 1), 500); 
   }
+} 
+
+fillBar(0);  
+
+function startWeb(){
+    AOS.init({
+      once: true
+      });
+    loadContainer.classList.add('hidden')
 }
 
-// Panggil fungsi saat halaman selesai loading
-window.addEventListener('load', () => {
-  fillBar(0);  
-  AOS.init({
-    once: true
-    });
-  loadContainer.classList.add('hidden')
-});
+setTimeout(startWeb, 2000);
