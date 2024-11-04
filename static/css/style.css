@@ -40,7 +40,7 @@ body::before{
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
-  background-image: url('../images/paper1.jpg');
+  background-image: url('../images/paper1.webp');
   animation:changeBg 2s infinite ;
   -webkit-animation:changeBg 2s infinite ;
 }
@@ -593,7 +593,7 @@ section{
     height: 100%;
 
     z-index: 0;
-    background-image: url('../images/paper1.jpg');
+    background-image: url('../images/paper1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;   
@@ -609,7 +609,7 @@ section{
 
   left: -4%;
   bottom: -5%; 
-  background-image: url('../images/paper1.jpg');
+  background-image: url('../images/paper1.webp');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -618,7 +618,7 @@ section{
 
 .topElementLoad,
 .topAccess{
-  background-image: url('../images/paper1.jpg');
+  background-image: url('../images/paper1.webp');
   background-position: center;
   background-size: cover;
   background-repeat: repeat; 
